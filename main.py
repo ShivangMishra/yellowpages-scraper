@@ -56,7 +56,7 @@ EXCLUDED_DOMAINS = [
     'whereis.com',
 ]
 
-OUTPUT_DIRECTORY = 'outputs'
+OUTPUT_DIRECTORY = os.path.join('outputs', time.strftime('%Y-%m-%d_%H-%M-%S'))
 LOG_DIRECTORY = 'state-logs'
 
 STATES_FILEPATH = 'inputs/states.txt'
@@ -95,17 +95,18 @@ def scrape_emails_from_url(url):
 
 def append_to_excel(file_path, new_data, sheet_name):
     try:
-        with pd.ExcelWriter(file_path, engine='openpyxl', mode='a') as writer:
-            existing_df = pd.read_excel(file_path, sheet_name=sheet_name)
-            new_df = pd.DataFrame(new_data)
-            combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-            combined_df.to_excel(writer, sheet_name=sheet_name, index=False)
+        with pd.ExcelWriter(file_path, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
+            try:
+                existing_df = pd.read_excel(file_path, sheet_name=sheet_name)
+                new_df = pd.DataFrame(new_data)
+                combined_df = pd.concat([existing_df, new_df], ignore_index=True)
+                combined_df.to_excel(writer, sheet_name=sheet_name, index=False)
+            except ValueError:
+                # If the sheet does not exist, create it
+                new_df = pd.DataFrame(new_data)
+                new_df.to_excel(writer, sheet_name=sheet_name, index=False)
     except FileNotFoundError:
         with pd.ExcelWriter(file_path, engine='openpyxl') as writer:
-            new_df = pd.DataFrame(new_data)
-            new_df.to_excel(writer, sheet_name=sheet_name, index=False)
-    except ValueError:
-        with pd.ExcelWriter(file_path, engine='openpyxl', mode='a') as writer:
             new_df = pd.DataFrame(new_data)
             new_df.to_excel(writer, sheet_name=sheet_name, index=False)
 
@@ -227,8 +228,21 @@ def scrape_yellowpages_au(base_url, filename, page=1):
 
     return results
 
+def sanitize_category(category_name):
+    # Replace special characters and spaces with hyphens
+    category = re.sub(r'[^a-zA-Z0-9]+', '-', category_name)
+    # Replace multiple consecutive hyphens with a single hyphen
+    category = re.sub(r'-+', '-', category)
+    # Remove leading and trailing hyphens
+    category = category.strip('-')
+    return category
 
 if __name__ == "__main__":
+    if not os.path.exists(OUTPUT_DIRECTORY):
+        os.makedirs(OUTPUT_DIRECTORY)
+
+    if not os.path.exists(LOG_DIRECTORY):
+        os.makedirs(LOG_DIRECTORY)
 
     states = []
     categories = []
@@ -236,7 +250,7 @@ if __name__ == "__main__":
     with open(STATES_FILEPATH, mode='r') as states_file:
         states = [line.strip() for line in states_file.readlines()]
     with open(CATEGORIES_FILEPATH, mode='r') as categories_file:
-        categories = [line.strip() for line in categories_file.readlines()]
+        categories = [sanitize_category(line) for line in categories_file.readlines()]
     
     for category in categories:
         for state in states:
