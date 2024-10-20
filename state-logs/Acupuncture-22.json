@@ -1,0 +1,2869 @@
+{
+    "env": {
+        "appLinkApple": "https://apps.apple.com/au/app/yellow-pages-australia/id325629947",
+        "appLinkAndroid": "https://play.google.com/store/apps/details?id=au.com.sensis.mobile.android.yellow",
+        "liveDataTestOrigin": "https://yellow.naws-sensis.com.au",
+        "defaultUrlSrp": "/search/listings?clue=Lawyers+%26+Solicitors&locationClue=gold+coast+qld&lat=&lon=&selectedViewMode=list&openNow=true&mappable=true&eventType=sort&sortBy=relevance",
+        "CONFIG_BASE_URL_BUILD": "https://www.yellowpages.com.au/js-react/prod/deploy",
+        "CONFIG_DTM_URL": "//assets.adobedtm.com/6bd430cdbc16/b087dfa2dc00/launch-a78df978695b.min.js",
+        "CONFIG_VCITA_JS": "https://widgets.vcdnita.com/assets/livesite.js",
+        "RECAPTCHA_URL": "https://www.google.com/recaptcha/api.js",
+        "CONFIG_ADSENSE_NORTH_SOUTH": "https://d3ua9fuc7lngpg.cloudfront.net/adsense/srp/yellowpages-north-south.js",
+        "CONFIG_ADSENSE_SOUTH": "https://d3ua9fuc7lngpg.cloudfront.net/adsense/srp/yellowpages-south.js",
+        "CONFIG_ONETRUST_COOKIE_BASE_URL": "https://cdn.cookielaw.org/",
+        "CONFIG_ONETRUST_COOKIE_ID": "7c5a7237-5498-46a6-b423-b64729ec433d",
+        "PRIVACY_POLICY_BANNER": "https://d2eq7g71ix37qb.cloudfront.net/static/js/announcements.js",
+        "CONFIG_OCELOT_URL": "https://d3ua9fuc7lngpg.cloudfront.net/ocelot/yellowpages.e4e9eb70452fa177a5772e5785844acb.js"
+    },
+    "model": {
+        "aggregateRating": null,
+        "akamaiCustId": "406171",
+        "breadCrumbs": {
+            "categoryUrl": "/find/acupuncture/vic",
+            "homeUrl": "/",
+            "location": " VIC"
+        },
+        "categorySnippetItem": {
+            "content": "<h2>How to find the best acupuncture clinic for you</h2>\n<p>Acupuncture therapy is a great way to make the pain go away. We\u2019ve assembled some handy pointers to help you find a suitable acupuncturist near you!</p>\n<ul>\n<li>Start by looking through our directory to find relevant providers in your area. Search for \u2018Acupuncture\u2019 to find acupuncture for fertility, weight loss or pain relief.</li>\n<li>View each listing\u2019s ratings, reviews and locations to create a shortlist of providers.</li>\n<li>Check the National Certification Commission in Acupuncture and Oriental Medicine website to find a licensed practitioner. A licensed acupuncturist ensures that needles are fully sterilised and single-use only as per Australia\u2019s medical guidelines.</li>\n<li>Acupuncture treatment may vary depending on the condition that you are in. Consider having chinese acupuncture treatment alongside western medical treatments.</li>\n</ul>\n<p>Acupuncture can be a very beneficial investment for your health and wellbeing. With this guide in mind, why not have a look through our listings to find acupuncture practices near you?</p>\n",
+            "id": 0
+        },
+        "clue": "acupuncture",
+        "debugMode": false,
+        "dominantCategoryId": "35424",
+        "dominantCategoryName": "Doctors-Medical Practitioners",
+        "filters": {
+            "categoryId": "27154",
+            "clue": "acupuncture",
+            "eventType": "search",
+            "locationClue": "vic",
+            "referredBy": "UNKNOWN",
+            "searchedLocation": "VIC"
+        },
+        "findPageFAQ": null,
+        "footerLinks": [
+            {
+                "title": "Our directory.",
+                "links": [
+                    {
+                        "title": "About Yellow Pages",
+                        "url": "/pages/about-us",
+                        "target": "",
+                        "rel": "follow",
+                        "cssClass": "about-us"
+                    },
+                    {
+                        "title": "Contact us",
+                        "url": "/pages/contact-us",
+                        "target": "",
+                        "rel": "follow",
+                        "cssClass": "contact-us"
+                    },
+                    {
+                        "title": "Site Index",
+                        "url": "/sitemap",
+                        "target": "",
+                        "rel": "follow",
+                        "cssClass": "sitemap"
+                    },
+                    {
+                        "title": "Order or cancel your book",
+                        "url": "https://www.directoryselect.com.au/action/home",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Terms of use",
+                        "url": "/pages/terms-of-use",
+                        "target": "",
+                        "rel": "follow",
+                        "cssClass": ""
+                    }
+                ]
+            },
+            {
+                "title": "Our advertising.",
+                "links": [
+                    {
+                        "title": "Get a free listing",
+                        "url": "https://my.yellow.com.au/online-signup/?referrer=yp_footer",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": "submit-free-listing"
+                    },
+                    {
+                        "title": "Digital marketing solutions",
+                        "url": "https://www.yellow.com.au/products/?referrer=yp_footer",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Business hub",
+                        "url": "https://www.yellow.com.au/business-hub/?referrer=yp_footer",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "myYellow login",
+                        "url": "https://my.yellow.com.au/login/?referrer=yp_footer",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    }
+                ]
+            },
+            {
+                "title": "thryv",
+                "links": [
+                    {
+                        "title": "About Thryv Australia",
+                        "url": "https://corporate.thryv.com.au/",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Privacy Policy",
+                        "url": "https://corporate.thryv.com/privacy/",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Terms of use",
+                        "url": "https://corporate.thryv.com.au/terms-of-use",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Legal",
+                        "url": "https://corporate.thryv.com.au/terms-and-conditions",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    }
+                ]
+            },
+            {
+                "title": "Connect with us.",
+                "links": [
+                    {
+                        "title": "Facebook",
+                        "url": "https://www.facebook.com/YellowAustralia",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Twitter",
+                        "url": "https://twitter.com/yellow_au",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Youtube",
+                        "url": "https://www.youtube.com/channel/UCWcM_0na_shR5xGR7iGmpQA",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "Instagram",
+                        "url": "https://www.instagram.com/yellow_au/?hl=en",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    },
+                    {
+                        "title": "LinkedIn",
+                        "url": "https://www.linkedin.com/company/yellow-pages-aus",
+                        "target": "_blank",
+                        "rel": "nofollow",
+                        "cssClass": ""
+                    }
+                ]
+            }
+        ],
+        "headers": {
+            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+        },
+        "inAreaResultViews": [
+            {
+                "aboutId": "786544f4-c5ea-4516-8e6c-6c36aa01a6af",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "436 Victoria St",
+                    "asContactCardFormat": "436 Victoria St, North Melbourne VIC 3051",
+                    "distance": "1.35km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80509",
+                    "listingId": "14348921",
+                    "longitude": "144.9517",
+                    "postCode": "3051",
+                    "productId": "474443768",
+                    "productVersion": 20,
+                    "state": "VIC",
+                    "suburb": "North Melbourne"
+                },
+                "advertiserId": "473194151",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "473194151",
+                "businessPresenceId": "3696042",
+                "callContactNumber": {
+                    "classification": null,
+                    "description": null,
+                    "displayValue": null,
+                    "metered": false,
+                    "type": null,
+                    "value": null
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - North Melbourne, VIC 3051",
+                "categoryUrl": "/find/doctors-medical-practitioners/north-melbourne-vic-3051",
+                "contentGroupId": "72cfc1be-3fd9-47ac-9f71-9c6bcb622bbf",
+                "contentScore": 8,
+                "detailsLink": "https://www.yellowpages.com.au/vic/north-melbourne/victoria-street-acupuncture-medical-clinic-pty-ltd-14348921-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.80509",
+                    "longitude": "144.9517"
+                },
+                "hasDeeperContent": false,
+                "id": "14348921",
+                "isTopOfList": false,
+                "lastUpdated": "2024-10-11T02:13:02Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Victoria Street Acupuncture & Medical Clinic Pty Ltd",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {
+                        "Monday": [
+                            "8:30am - 7:00pm"
+                        ],
+                        "Tuesday": [
+                            "8:30am - 12:00pm"
+                        ],
+                        "Wednesday": [
+                            "8:30am - 12:00pm"
+                        ],
+                        "Thursday": [
+                            "8:30am - 7:00pm"
+                        ],
+                        "Friday": [
+                            "8:30am - 12:00pm"
+                        ],
+                        "Saturday": [
+                            "Not provided"
+                        ],
+                        "Sunday": [
+                            "Not provided"
+                        ],
+                        "Public Holidays": [
+                            "Not provided"
+                        ]
+                    },
+                    "openingTimeToday": "8:30am - 12:00pm"
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "786544f4-c5ea-4516-8e6c-6c36aa01a6af",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "436 Victoria St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80509",
+                    "longitude": "144.9517",
+                    "mappable": true,
+                    "postCode": "3051",
+                    "state": "VIC",
+                    "suburb": "North Melbourne",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": "surgery@vmac.com.au",
+                "productCode": "YPD00",
+                "productId": "474443768",
+                "productVersion": 20,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/north-melbourne/victoria-street-acupuncture-medical-clinic-pty-ltd-14348921-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "3057505",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "436 Victoria St",
+                    "emsPostcode": "3051",
+                    "emsState": "VIC",
+                    "emsSuburb": "NORTH MELBOURNE",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80509",
+                    "longitude": "144.9517",
+                    "mappable": true,
+                    "postCode": "3051",
+                    "state": "VIC",
+                    "suburb": "North Melbourne",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "58d3ecfe-5d89-41ce-a013-9056f139a35a",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "68 Victoria Rd",
+                    "asContactCardFormat": "68 Victoria Rd, Northcote VIC 3070",
+                    "distance": "5.75km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.77839",
+                    "listingId": "12672452",
+                    "longitude": "145.010659",
+                    "postCode": "3070",
+                    "productId": "506875087",
+                    "productVersion": 5,
+                    "state": "VIC",
+                    "suburb": "Northcote"
+                },
+                "advertiserId": "100001001580",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "472817799",
+                "businessPresenceId": "214726",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9489 5504",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0394895504"
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - Northcote, VIC 3070",
+                "categoryUrl": "/find/doctors-medical-practitioners/northcote-vic-3070",
+                "contentGroupId": "dba89cb2-1bca-4516-a641-10a491018ac7",
+                "contentScore": 5,
+                "detailsLink": "https://www.yellowpages.com.au/vic/northcote/victoria-rd-medical-centre-12672452-listing.html",
+                "externalLinks": [],
+                "freeListing": false,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.77839",
+                    "longitude": "145.010659"
+                },
+                "hasDeeperContent": false,
+                "id": "12672452",
+                "isTopOfList": false,
+                "lastUpdated": "2024-10-04T07:32:06Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Victoria Rd Medical Centre",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "58d3ecfe-5d89-41ce-a013-9056f139a35a",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "68 Victoria Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.77839",
+                    "longitude": "145.010659",
+                    "mappable": true,
+                    "postCode": "3070",
+                    "state": "VIC",
+                    "suburb": "Northcote",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD01",
+                "productId": "506875087",
+                "productVersion": 5,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/northcote/victoria-rd-medical-centre-12672452-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "506875087",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "68 Victoria Rd",
+                    "emsPostcode": "3070",
+                    "emsState": "VIC",
+                    "emsSuburb": "NORTHCOTE",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.77839",
+                    "longitude": "145.010659",
+                    "mappable": true,
+                    "postCode": "3070",
+                    "state": "VIC",
+                    "suburb": "Northcote",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": "2015-10-08T13:00:00Z",
+                "seoSnippetSummary": "This business servicing  is a local SME in the Doctors-Medical Practitioners category.\n ",
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": "http://www.victoriaroadmedicalcentre.com.au"
+            },
+            {
+                "aboutId": "1c2c4b6c-aa3a-41e9-bb8d-80c2e91a5ef9",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "Shop 4 - 10 Arthur St",
+                    "asContactCardFormat": "Shop 4 - 10 Arthur St, Eltham VIC 3095",
+                    "distance": "19.76km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.714983",
+                    "listingId": "14100986",
+                    "longitude": "145.149697",
+                    "postCode": "3095",
+                    "productId": "999015336784",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Eltham"
+                },
+                "advertiserId": "959013929",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "959013929",
+                "businessPresenceId": "1c2c4b6c-aa3a-41e9-bb8d-80c2e91a5ef9",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9439 4424",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0394394424"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Eltham, VIC 3095",
+                "categoryUrl": "/find/massage-therapy/eltham-vic-3095",
+                "contentGroupId": "e48fb109-1d5d-44b4-b3a1-4d053c12b5b6",
+                "contentScore": 8,
+                "detailsLink": "https://www.yellowpages.com.au/vic/eltham/maxfit-massage-acupuncture-service-14100986-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.714983",
+                    "longitude": "145.149697"
+                },
+                "hasDeeperContent": false,
+                "id": "14100986",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T05:33:58Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Maxfit Massage & Acupuncture Service",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "1c2c4b6c-aa3a-41e9-bb8d-80c2e91a5ef9",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "Shop 4 - 10 Arthur St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.714983",
+                    "longitude": "145.149697",
+                    "mappable": true,
+                    "postCode": "3095",
+                    "state": "VIC",
+                    "suburb": "Eltham",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": "maxfit@qwacupuncture.com.au",
+                "productCode": "YPD00",
+                "productId": "999015336784",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/eltham/maxfit-massage-acupuncture-service-14100986-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "895580",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "Shop 4 - 10 Arthur St",
+                    "emsPostcode": "3095",
+                    "emsState": "VIC",
+                    "emsSuburb": "ELTHAM",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.714983",
+                    "longitude": "145.149697",
+                    "mappable": true,
+                    "postCode": "3095",
+                    "state": "VIC",
+                    "suburb": "Eltham",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": "http://www.qwacupuncture.com.au"
+            },
+            {
+                "aboutId": "5766ad4e-0257-4a4a-beba-6f50e0a7ec69",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "2 Ranger Ct",
+                    "asContactCardFormat": "2 Ranger Ct, Mildura VIC 3500",
+                    "distance": "477.38km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-34.169859",
+                    "listingId": "1000002325515",
+                    "longitude": "142.155311",
+                    "postCode": "3500",
+                    "productId": "1000002325515",
+                    "productVersion": 1,
+                    "state": "VIC",
+                    "suburb": "Mildura"
+                },
+                "advertiserId": "961973236",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "961973236",
+                "businessPresenceId": "5766ad4e-0257-4a4a-beba-6f50e0a7ec69",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "0476 060 829",
+                    "metered": false,
+                    "type": {
+                        "name": "MOBILE"
+                    },
+                    "value": "0476060829"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Mildura, VIC 3500",
+                "categoryUrl": "/find/massage-therapy/mildura-vic-3500",
+                "contentGroupId": "ce07eb38-9653-4eb1-a0b0-75dee95299e1",
+                "contentScore": 8,
+                "detailsLink": "https://www.yellowpages.com.au/vic/mildura/tim-dean-acupuncture-chinese-medicine-and-therapeutic-massage-1000002325515-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-34.169859",
+                    "longitude": "142.155311"
+                },
+                "hasDeeperContent": false,
+                "id": "1000002325515",
+                "isTopOfList": false,
+                "lastUpdated": "2019-12-20T05:39:16Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Tim Dean Acupuncture, Chinese Medicine and Therapeutic Massage",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "5766ad4e-0257-4a4a-beba-6f50e0a7ec69",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "2 Ranger Ct",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-34.169859",
+                    "longitude": "142.155311",
+                    "mappable": true,
+                    "postCode": "3500",
+                    "state": "VIC",
+                    "suburb": "Mildura",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": "timdean.acupuntura@gmail.com",
+                "productCode": "YPD00",
+                "productId": "1000002325515",
+                "productVersion": 1,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/mildura/tim-dean-acupuncture-chinese-medicine-and-therapeutic-massage-1000002325515-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "4086095",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "2 Ranger Ct",
+                    "emsPostcode": "3500",
+                    "emsState": "VIC",
+                    "emsSuburb": "MILDURA",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-34.169859",
+                    "longitude": "142.155311",
+                    "mappable": true,
+                    "postCode": "3500",
+                    "state": "VIC",
+                    "suburb": "Mildura",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": "https://www.facebook.com/timdeanacupuncture"
+            },
+            {
+                "aboutId": "9273c5d1-3120-4a56-aa94-b54499021031",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "151 Barkly St",
+                    "asContactCardFormat": "151 Barkly St, Brunswick VIC 3056",
+                    "distance": "4.12km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.777023",
+                    "listingId": "1000002279721",
+                    "longitude": "144.970479",
+                    "postCode": "3056",
+                    "productId": "1000002279721",
+                    "productVersion": 1,
+                    "state": "VIC",
+                    "suburb": "Brunswick"
+                },
+                "advertiserId": "961915556",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "961915556",
+                "businessPresenceId": "9273c5d1-3120-4a56-aa94-b54499021031",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9387 3998",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0393873998"
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - Brunswick, VIC 3056",
+                "categoryUrl": "/find/doctors-medical-practitioners/brunswick-vic-3056",
+                "contentGroupId": "844f39ea-a3a0-4e39-bd71-b5d22022516f",
+                "contentScore": 4,
+                "detailsLink": "https://www.yellowpages.com.au/vic/brunswick/brunswick-acupuncture-1000002279721-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.777023",
+                    "longitude": "144.970479"
+                },
+                "hasDeeperContent": false,
+                "id": "1000002279721",
+                "isTopOfList": false,
+                "lastUpdated": "2019-07-30T04:18:12Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Brunswick Acupuncture",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "9273c5d1-3120-4a56-aa94-b54499021031",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "151 Barkly St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.777023",
+                    "longitude": "144.970479",
+                    "mappable": true,
+                    "postCode": "3056",
+                    "state": "VIC",
+                    "suburb": "Brunswick",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "1000002279721",
+                "productVersion": 1,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/brunswick/brunswick-acupuncture-1000002279721-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "3996075",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "151 Barkly St",
+                    "emsPostcode": "3056",
+                    "emsState": "VIC",
+                    "emsSuburb": "BRUNSWICK",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.777023",
+                    "longitude": "144.970479",
+                    "mappable": true,
+                    "postCode": "3056",
+                    "state": "VIC",
+                    "suburb": "Brunswick",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": "http://brunswickacupuncture.com.au"
+            },
+            {
+                "aboutId": "e3188cf8-7224-4dbc-b79d-929362f8d1e3",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "Unit 1 99 Brighton Rd",
+                    "asContactCardFormat": "Unit 1 99 Brighton Rd, Elwood VIC 3184",
+                    "distance": "7.06km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.873299",
+                    "listingId": "14915778",
+                    "longitude": "144.989905",
+                    "postCode": "3184",
+                    "productId": "999015719990",
+                    "productVersion": 5,
+                    "state": "VIC",
+                    "suburb": "Elwood"
+                },
+                "advertiserId": "483802626",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "483802626",
+                "businessPresenceId": "10000387018",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9521 8660",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0395218660"
+                },
+                "category": {
+                    "id": "10200",
+                    "name": "Herbalists"
+                },
+                "categoryText": "Herbalists - Elwood, VIC 3184",
+                "categoryUrl": "/find/herbalists/elwood-vic-3184",
+                "contentGroupId": "a65bf28c-680c-4168-bf10-2e3867442612",
+                "contentScore": 4,
+                "detailsLink": "https://www.yellowpages.com.au/vic/elwood/bayside-acupuncture-natural-medicine-14915778-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.873299",
+                    "longitude": "144.989905"
+                },
+                "hasDeeperContent": false,
+                "id": "14915778",
+                "isTopOfList": false,
+                "lastUpdated": "2024-02-07T23:45:51Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Bayside Acupuncture & Natural Medicine",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "e3188cf8-7224-4dbc-b79d-929362f8d1e3",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "Unit 1 99 Brighton Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.873299",
+                    "longitude": "144.989905",
+                    "mappable": true,
+                    "postCode": "3184",
+                    "state": "VIC",
+                    "suburb": "Elwood",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999015719990",
+                "productVersion": 5,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/elwood/bayside-acupuncture-natural-medicine-14915778-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "627394",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "Unit 1 99 Brighton Rd",
+                    "emsPostcode": "3184",
+                    "emsState": "VIC",
+                    "emsSuburb": "ELWOOD",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.873299",
+                    "longitude": "144.989905",
+                    "mappable": true,
+                    "postCode": "3184",
+                    "state": "VIC",
+                    "suburb": "Elwood",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": "http://www.baysidenaturalmedicine.com.au"
+            },
+            {
+                "aboutId": "dcd01c70-c4b3-46dc-9997-60e12cbc8c72",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "52-54 O'sullivan Road Rd",
+                    "asContactCardFormat": "52-54 O'sullivan Road Rd, Glen Waverley VIC 3150",
+                    "distance": null,
+                    "geoCodeGranularity": "SUBURB",
+                    "latitude": "-37.8785156",
+                    "listingId": "15162210",
+                    "longitude": "145.1648632",
+                    "postCode": "3150",
+                    "productId": "999015889922",
+                    "productVersion": 5,
+                    "state": "VIC",
+                    "suburb": "Glen Waverley"
+                },
+                "advertiserId": "959364872",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "959364872",
+                "businessPresenceId": "dcd01c70-c4b3-46dc-9997-60e12cbc8c72",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9887 7889",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0398877889"
+                },
+                "category": {
+                    "id": "47376",
+                    "name": "Medical Centres"
+                },
+                "categoryText": "Medical Centres - Glen Waverley, VIC 3150",
+                "categoryUrl": "/find/medical-centres/glen-waverley-vic-3150",
+                "contentGroupId": "84254d03-5302-4666-b0f4-ca50a2a69ddd",
+                "contentScore": 4,
+                "detailsLink": "https://www.yellowpages.com.au/vic/glen-waverley/natures-path-chinese-medicine-and-acupuncture-centre-15162210-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "SUBURB",
+                    "latitude": "-37.8785156",
+                    "longitude": "145.1648632"
+                },
+                "hasDeeperContent": false,
+                "id": "15162210",
+                "isTopOfList": false,
+                "lastUpdated": "2021-12-10T06:33:09Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Natures Path Chinese Medicine and Acupuncture Centre",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "dcd01c70-c4b3-46dc-9997-60e12cbc8c72",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "52-54 O'sullivan Road Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "SUBURB",
+                    "latitude": "-37.8785156",
+                    "longitude": "145.1648632",
+                    "mappable": false,
+                    "postCode": "3150",
+                    "state": "VIC",
+                    "suburb": "Glen Waverley",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": "naturespath.cm@gmail.com",
+                "productCode": "YPD00",
+                "productId": "999015889922",
+                "productVersion": 5,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/glen-waverley/natures-path-chinese-medicine-and-acupuncture-centre-15162210-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "1202043",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "52-54 O'sullivan Road Rd",
+                    "emsPostcode": "3150",
+                    "emsState": "VIC",
+                    "emsSuburb": "GLEN WAVERLEY",
+                    "geoCodeGranularity": "SUBURB",
+                    "latitude": "-37.8785156",
+                    "longitude": "145.1648632",
+                    "mappable": false,
+                    "postCode": "3150",
+                    "state": "VIC",
+                    "suburb": "Glen Waverley",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "8eb3218a-2015-420a-9c80-5d8da7244774",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "1429 Malvern Rd",
+                    "asContactCardFormat": "1429 Malvern Rd, Malvern VIC 3144",
+                    "distance": "8.22km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "listingId": "12448430",
+                    "longitude": "145.041868",
+                    "postCode": "3144",
+                    "productId": "999902523808",
+                    "productVersion": 7,
+                    "state": "VIC",
+                    "suburb": "Malvern"
+                },
+                "advertiserId": "472691731",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "472691731",
+                "businessPresenceId": "8eb3218a-2015-420a-9c80-5d8da7244774",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9824 6388",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0398246388"
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - Malvern, VIC 3144",
+                "categoryUrl": "/find/doctors-medical-practitioners/malvern-vic-3144",
+                "contentGroupId": "ae8fb653-b8f5-4035-9c4f-abbc4b325502",
+                "contentScore": 4,
+                "detailsLink": "https://www.yellowpages.com.au/vic/malvern/traum-dr-d-j-laser-acupuncture-clinic-12448430-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "longitude": "145.041868"
+                },
+                "hasDeeperContent": false,
+                "id": "12448430",
+                "isTopOfList": false,
+                "lastUpdated": "2019-08-27T23:42:56Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Traum Dr D J Laser Acupuncture Clinic",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "8eb3218a-2015-420a-9c80-5d8da7244774",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "1429 Malvern Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "longitude": "145.041868",
+                    "mappable": true,
+                    "postCode": "3144",
+                    "state": "VIC",
+                    "suburb": "Malvern",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999902523808",
+                "productVersion": 7,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/malvern/traum-dr-d-j-laser-acupuncture-clinic-12448430-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "543711",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "1429 Malvern Rd",
+                    "emsPostcode": "3144",
+                    "emsState": "VIC",
+                    "emsSuburb": "MALVERN",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "longitude": "145.041868",
+                    "mappable": true,
+                    "postCode": "3144",
+                    "state": "VIC",
+                    "suburb": "Malvern",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": "http://laseracupuncture.net.au"
+            },
+            {
+                "aboutId": "80c70696-e7cb-441f-b4af-1f42208725fd",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "121E Elation Bvd",
+                    "asContactCardFormat": "121E Elation Bvd, Doreen VIC 3754",
+                    "distance": "26.21km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.615821",
+                    "listingId": "1000002081510",
+                    "longitude": "145.124969",
+                    "postCode": "3754",
+                    "productId": "1000002081510",
+                    "productVersion": 1,
+                    "state": "VIC",
+                    "suburb": "Doreen"
+                },
+                "advertiserId": "961487248",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "961487248",
+                "businessPresenceId": "80c70696-e7cb-441f-b4af-1f42208725fd",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 8772 3925",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0387723925"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Doreen, VIC 3754",
+                "categoryUrl": "/find/massage-therapy/doreen-vic-3754",
+                "contentGroupId": "61263383-0b99-4885-8f3e-ab7a5b6b642c",
+                "contentScore": 4,
+                "detailsLink": "https://www.yellowpages.com.au/vic/doreen/dyhealth-massage-herb-acupuncturecupping-1000002081510-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.615821",
+                    "longitude": "145.124969"
+                },
+                "hasDeeperContent": false,
+                "id": "1000002081510",
+                "isTopOfList": false,
+                "lastUpdated": "2018-02-06T04:51:08Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "D.Y.Health (Massage, Herb, Acupuncture,Cupping)",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "80c70696-e7cb-441f-b4af-1f42208725fd",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "121E Elation Bvd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.615821",
+                    "longitude": "145.124969",
+                    "mappable": true,
+                    "postCode": "3754",
+                    "state": "VIC",
+                    "suburb": "Doreen",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": "dyhealth2018@gmail.com",
+                "productCode": "YPD00",
+                "productId": "1000002081510",
+                "productVersion": 1,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/doreen/dyhealth-massage-herb-acupuncturecupping-1000002081510-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "3593158",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "121E Elation Bvd",
+                    "emsPostcode": "3754",
+                    "emsState": "VIC",
+                    "emsSuburb": "DOREEN",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.615821",
+                    "longitude": "145.124969",
+                    "mappable": true,
+                    "postCode": "3754",
+                    "state": "VIC",
+                    "suburb": "Doreen",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "284f00ea-d1f5-4a87-9b57-79492325229b",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "7 Hopetoun Ave",
+                    "asContactCardFormat": "7 Hopetoun Ave, Morwell VIC 3840",
+                    "distance": "134.59km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-38.237026",
+                    "listingId": "13297743",
+                    "longitude": "146.402121",
+                    "postCode": "3840",
+                    "productId": "484872037",
+                    "productVersion": 10,
+                    "state": "VIC",
+                    "suburb": "Morwell"
+                },
+                "advertiserId": "474164328",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "474164328",
+                "businessPresenceId": "284f00ea-d1f5-4a87-9b57-79492325229b",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 5134 4333",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0351344333"
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - Morwell, VIC 3840",
+                "categoryUrl": "/find/doctors-medical-practitioners/morwell-vic-3840",
+                "contentGroupId": "10200c80-ed2e-4da6-81d7-b7a7941a635c",
+                "contentScore": 4,
+                "detailsLink": "https://www.yellowpages.com.au/vic/morwell/pui-suzy-dr-latrobe-valley-medical-acupuncture-hypnosis-centre-13297743-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-38.237026",
+                    "longitude": "146.402121"
+                },
+                "hasDeeperContent": false,
+                "id": "13297743",
+                "isTopOfList": false,
+                "lastUpdated": "2020-05-30T22:03:51Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Pui Suzy Dr - Latrobe Valley Medical Acupuncture & Hypnosis Centre",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {
+                        "Monday": [
+                            "By appointment"
+                        ],
+                        "Tuesday": [
+                            "By appointment"
+                        ],
+                        "Wednesday": [
+                            "By appointment"
+                        ],
+                        "Thursday": [
+                            "By appointment"
+                        ],
+                        "Friday": [
+                            "By appointment"
+                        ],
+                        "Saturday": [
+                            "By appointment"
+                        ],
+                        "Sunday": [
+                            "Not provided"
+                        ],
+                        "Public Holidays": [
+                            "Not provided"
+                        ]
+                    },
+                    "openingTimeToday": "By appointment"
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "284f00ea-d1f5-4a87-9b57-79492325229b",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "7 Hopetoun Ave",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-38.237026",
+                    "longitude": "146.402121",
+                    "mappable": true,
+                    "postCode": "3840",
+                    "state": "VIC",
+                    "suburb": "Morwell",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "484872037",
+                "productVersion": 10,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/morwell/pui-suzy-dr-latrobe-valley-medical-acupuncture-hypnosis-centre-13297743-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "4163004",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "7 Hopetoun Ave",
+                    "emsPostcode": "3840",
+                    "emsState": "VIC",
+                    "emsSuburb": "MORWELL",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-38.237026",
+                    "longitude": "146.402121",
+                    "mappable": true,
+                    "postCode": "3840",
+                    "state": "VIC",
+                    "suburb": "Morwell",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "e0e42b09-4e52-4183-b4de-df8cb241f77e",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "166 York St",
+                    "asContactCardFormat": "166 York St, South Melbourne VIC 3205",
+                    "distance": "2.09km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.831681",
+                    "listingId": "15763404",
+                    "longitude": "144.956429",
+                    "postCode": "3205",
+                    "productId": "999016287775",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "South Melbourne"
+                },
+                "advertiserId": "959050267",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "959050267",
+                "businessPresenceId": "e0e42b09-4e52-4183-b4de-df8cb241f77e",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "0401 419 899",
+                    "metered": false,
+                    "type": {
+                        "name": "MOBILE"
+                    },
+                    "value": "0401419899"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - South Melbourne, VIC 3205",
+                "categoryUrl": "/find/massage-therapy/south-melbourne-vic-3205",
+                "contentGroupId": "155ccb47-cc98-40fc-a5a1-7e77cd362f6c",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/south-melbourne/south-melbourne-acupuncture-massage-15763404-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.831681",
+                    "longitude": "144.956429"
+                },
+                "hasDeeperContent": false,
+                "id": "15763404",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T09:15:36Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "South Melbourne Acupuncture & Massage",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "e0e42b09-4e52-4183-b4de-df8cb241f77e",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "166 York St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.831681",
+                    "longitude": "144.956429",
+                    "mappable": true,
+                    "postCode": "3205",
+                    "state": "VIC",
+                    "suburb": "South Melbourne",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999016287775",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/south-melbourne/south-melbourne-acupuncture-massage-15763404-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "1365441",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "166 York St",
+                    "emsPostcode": "3205",
+                    "emsState": "VIC",
+                    "emsSuburb": "SOUTH MELBOURNE",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.831681",
+                    "longitude": "144.956429",
+                    "mappable": true,
+                    "postCode": "3205",
+                    "state": "VIC",
+                    "suburb": "South Melbourne",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "3846bf36-082e-4ad4-bfa5-a5943adb5eaf",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "348 St Georges Rd",
+                    "asContactCardFormat": "348 St Georges Rd, Fitzroy North VIC 3068",
+                    "distance": "4.35km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.779556",
+                    "listingId": "15286921",
+                    "longitude": "144.987317",
+                    "postCode": "3068",
+                    "productId": "999015991617",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Fitzroy North"
+                },
+                "advertiserId": "959460772",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "959460772",
+                "businessPresenceId": "3846bf36-082e-4ad4-bfa5-a5943adb5eaf",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "0411 962 489",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0411962489"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Fitzroy North, VIC 3068",
+                "categoryUrl": "/find/massage-therapy/fitzroy-north-vic-3068",
+                "contentGroupId": "7d5b7fa0-7d42-402a-8cff-98e7cb1182cb",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/fitzroy-north/five-elements-acupuncture-massage-15286921-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.779556",
+                    "longitude": "144.987317"
+                },
+                "hasDeeperContent": false,
+                "id": "15286921",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T05:17:03Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Five Elements Acupuncture & Massage",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "3846bf36-082e-4ad4-bfa5-a5943adb5eaf",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "348 St Georges Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.779556",
+                    "longitude": "144.987317",
+                    "mappable": true,
+                    "postCode": "3068",
+                    "state": "VIC",
+                    "suburb": "Fitzroy North",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999015991617",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/fitzroy-north/five-elements-acupuncture-massage-15286921-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "711130",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "348 St Georges Rd",
+                    "emsPostcode": "3068",
+                    "emsState": "VIC",
+                    "emsSuburb": "FITZROY NORTH",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.779556",
+                    "longitude": "144.987317",
+                    "mappable": true,
+                    "postCode": "3068",
+                    "state": "VIC",
+                    "suburb": "Fitzroy North",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "55a1928c-7646-4887-836c-1949b531aa85",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "6 Paisley St",
+                    "asContactCardFormat": "6 Paisley St, Footscray VIC 3011",
+                    "distance": "5.64km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "listingId": "13520050",
+                    "longitude": "144.9006",
+                    "postCode": "3011",
+                    "productId": "999990831089",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Footscray"
+                },
+                "advertiserId": "473269797",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "473269797",
+                "businessPresenceId": "55a1928c-7646-4887-836c-1949b531aa85",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9689 1571",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0396891571"
+                },
+                "category": {
+                    "id": "30961",
+                    "name": "Naturopaths"
+                },
+                "categoryText": "Naturopaths - Footscray, VIC 3011",
+                "categoryUrl": "/find/naturopaths/footscray-vic-3011",
+                "contentGroupId": "8109c0ed-541a-4ea0-be4b-24e93d1f6608",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/footscray/lins-chinese-acupuncture-centre-13520050-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "longitude": "144.9006"
+                },
+                "hasDeeperContent": false,
+                "id": "13520050",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T05:43:22Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Lin's Chinese Acupuncture Centre",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "55a1928c-7646-4887-836c-1949b531aa85",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "6 Paisley St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "longitude": "144.9006",
+                    "mappable": true,
+                    "postCode": "3011",
+                    "state": "VIC",
+                    "suburb": "Footscray",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999990831089",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/footscray/lins-chinese-acupuncture-centre-13520050-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "704318",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "6 Paisley St",
+                    "emsPostcode": "3011",
+                    "emsState": "VIC",
+                    "emsSuburb": "FOOTSCRAY",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "longitude": "144.9006",
+                    "mappable": true,
+                    "postCode": "3011",
+                    "state": "VIC",
+                    "suburb": "Footscray",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "f29a8483-17e0-4466-90d8-5d65db97907f",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "6 Paisley St",
+                    "asContactCardFormat": "6 Paisley St, Footscray VIC 3011",
+                    "distance": "5.64km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "listingId": "13596390",
+                    "longitude": "144.9006",
+                    "postCode": "3011",
+                    "productId": "999901276799",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Footscray"
+                },
+                "advertiserId": "473269797",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "473269797",
+                "businessPresenceId": "f29a8483-17e0-4466-90d8-5d65db97907f",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9689 2678",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0396892678"
+                },
+                "category": {
+                    "id": "30961",
+                    "name": "Naturopaths"
+                },
+                "categoryText": "Naturopaths - Footscray, VIC 3011",
+                "categoryUrl": "/find/naturopaths/footscray-vic-3011",
+                "contentGroupId": "7cf34b2e-b55b-4ff9-a038-76d2cc5edd58",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/footscray/society-of-chinese-medicine-acupuncture-vic-inc-13596390-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "longitude": "144.9006"
+                },
+                "hasDeeperContent": false,
+                "id": "13596390",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T05:16:33Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Society Of Chinese Medicine & Acupuncture (Vic.) Inc.",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "f29a8483-17e0-4466-90d8-5d65db97907f",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "6 Paisley St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "longitude": "144.9006",
+                    "mappable": true,
+                    "postCode": "3011",
+                    "state": "VIC",
+                    "suburb": "Footscray",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999901276799",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/footscray/society-of-chinese-medicine-acupuncture-vic-inc-13596390-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "836148",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "6 Paisley St",
+                    "emsPostcode": "3011",
+                    "emsState": "VIC",
+                    "emsSuburb": "FOOTSCRAY",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.80081",
+                    "longitude": "144.9006",
+                    "mappable": true,
+                    "postCode": "3011",
+                    "state": "VIC",
+                    "suburb": "Footscray",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "9294ae4e-d549-441f-ab14-60098d2bd4c0",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "1429 Malvern Rd",
+                    "asContactCardFormat": "1429 Malvern Rd, Malvern VIC 3144",
+                    "distance": "8.22km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "listingId": "13330263",
+                    "longitude": "145.041893",
+                    "postCode": "3144",
+                    "productId": "999901825912",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Malvern"
+                },
+                "advertiserId": "472691731",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "472691731",
+                "businessPresenceId": "9294ae4e-d549-441f-ab14-60098d2bd4c0",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9824 6378",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0398246378"
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - Malvern, VIC 3144",
+                "categoryUrl": "/find/doctors-medical-practitioners/malvern-vic-3144",
+                "contentGroupId": "44e17bef-2921-4f72-8e0f-23ebce4b5733",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/malvern/australian-medical-acupuncture-college-13330263-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "longitude": "145.041893"
+                },
+                "hasDeeperContent": false,
+                "id": "13330263",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T03:38:58Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Australian Medical Acupuncture College",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "9294ae4e-d549-441f-ab14-60098d2bd4c0",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "1429 Malvern Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "longitude": "145.041893",
+                    "mappable": true,
+                    "postCode": "3144",
+                    "state": "VIC",
+                    "suburb": "Malvern",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999901825912",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/malvern/australian-medical-acupuncture-college-13330263-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "543712",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "1429 Malvern Rd",
+                    "emsPostcode": "3144",
+                    "emsState": "VIC",
+                    "emsSuburb": "MALVERN",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.852936",
+                    "longitude": "145.041893",
+                    "mappable": true,
+                    "postCode": "3144",
+                    "state": "VIC",
+                    "suburb": "Malvern",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "7c86b1fe-1817-41fa-abc0-cd2aa37cb7dc",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "19 Village Ave",
+                    "asContactCardFormat": "19 Village Ave, Doncaster VIC 3108",
+                    "distance": "13.36km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.78174",
+                    "listingId": "15707030",
+                    "longitude": "145.109355",
+                    "postCode": "3108",
+                    "productId": "999016240563",
+                    "productVersion": 4,
+                    "state": "VIC",
+                    "suburb": "Doncaster"
+                },
+                "advertiserId": "959644690",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "959644690",
+                "businessPresenceId": "7c86b1fe-1817-41fa-abc0-cd2aa37cb7dc",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "0410 454 256",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0410454256"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Doncaster, VIC 3108",
+                "categoryUrl": "/find/massage-therapy/doncaster-vic-3108",
+                "contentGroupId": "64559cf3-246b-4c4a-937f-b01eca944354",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/doncaster/the-acupuncture-centre-15707030-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.78174",
+                    "longitude": "145.109355"
+                },
+                "hasDeeperContent": false,
+                "id": "15707030",
+                "isTopOfList": false,
+                "lastUpdated": "2017-09-26T00:39:39Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "THE ACUPUNCTURE CENTRE",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "7c86b1fe-1817-41fa-abc0-cd2aa37cb7dc",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "19 Village Ave",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.78174",
+                    "longitude": "145.109355",
+                    "mappable": true,
+                    "postCode": "3108",
+                    "state": "VIC",
+                    "suburb": "Doncaster",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999016240563",
+                "productVersion": 4,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/doncaster/the-acupuncture-centre-15707030-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "1232907",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "19 Village Ave",
+                    "emsPostcode": "3108",
+                    "emsState": "VIC",
+                    "emsSuburb": "DONCASTER",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.78174",
+                    "longitude": "145.109355",
+                    "mappable": true,
+                    "postCode": "3108",
+                    "state": "VIC",
+                    "suburb": "Doncaster",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "08e2a11e-0b98-42ce-a784-0eeae55bb26d",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "535 Station St",
+                    "asContactCardFormat": "535 Station St, Box Hill VIC 3128",
+                    "distance": "14.11km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.820589",
+                    "listingId": "13764897",
+                    "longitude": "145.123118",
+                    "postCode": "3128",
+                    "productId": "999901337188",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Box Hill"
+                },
+                "advertiserId": "472842427",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "472842427",
+                "businessPresenceId": "08e2a11e-0b98-42ce-a784-0eeae55bb26d",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9898 7880",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0398987880"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Box Hill, VIC 3128",
+                "categoryUrl": "/find/massage-therapy/box-hill-vic-3128",
+                "contentGroupId": "13d347b1-d60d-43fc-919b-1da01bdb42b6",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/box-hill/box-hill-chinese-herbal-acupuncture-massage-centre-13764897-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.820589",
+                    "longitude": "145.123118"
+                },
+                "hasDeeperContent": false,
+                "id": "13764897",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T04:20:16Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Box Hill Chinese Herbal, Acupuncture & Massage Centre",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "08e2a11e-0b98-42ce-a784-0eeae55bb26d",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "535 Station St",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.820589",
+                    "longitude": "145.123118",
+                    "mappable": true,
+                    "postCode": "3128",
+                    "state": "VIC",
+                    "suburb": "Box Hill",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999901337188",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/box-hill/box-hill-chinese-herbal-acupuncture-massage-centre-13764897-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "728791",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "535 Station St",
+                    "emsPostcode": "3128",
+                    "emsState": "VIC",
+                    "emsSuburb": "BOX HILL",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.820589",
+                    "longitude": "145.123118",
+                    "mappable": true,
+                    "postCode": "3128",
+                    "state": "VIC",
+                    "suburb": "Box Hill",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "80749f38-bfdf-4f6c-ad74-2cb4b4a59fa4",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "487 Mitcham Rd",
+                    "asContactCardFormat": "487 Mitcham Rd, Mitcham VIC 3132",
+                    "distance": "20.48km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.828137",
+                    "listingId": "12975095",
+                    "longitude": "145.195093",
+                    "postCode": "3132",
+                    "productId": "999990221882",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Mitcham"
+                },
+                "advertiserId": "472908766",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "472908766",
+                "businessPresenceId": "80749f38-bfdf-4f6c-ad74-2cb4b4a59fa4",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9873 4143",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0398734143"
+                },
+                "category": {
+                    "id": "35424",
+                    "name": "Doctors-Medical Practitioners"
+                },
+                "categoryText": "Doctors-Medical Practitioners - Mitcham, VIC 3132",
+                "categoryUrl": "/find/doctors-medical-practitioners/mitcham-vic-3132",
+                "contentGroupId": "f4974a9e-948c-412b-90cc-6d315d4c641e",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/mitcham/rangeview-medical-surgery-and-acupuncture-centre-12975095-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.828137",
+                    "longitude": "145.195093"
+                },
+                "hasDeeperContent": false,
+                "id": "12975095",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T04:43:37Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Rangeview Medical Surgery And Acupuncture Centre",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "80749f38-bfdf-4f6c-ad74-2cb4b4a59fa4",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "487 Mitcham Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.828137",
+                    "longitude": "145.195093",
+                    "mappable": true,
+                    "postCode": "3132",
+                    "state": "VIC",
+                    "suburb": "Mitcham",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999990221882",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/mitcham/rangeview-medical-surgery-and-acupuncture-centre-12975095-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "882897",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "487 Mitcham Rd",
+                    "emsPostcode": "3132",
+                    "emsState": "VIC",
+                    "emsSuburb": "MITCHAM",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.828137",
+                    "longitude": "145.195093",
+                    "mappable": true,
+                    "postCode": "3132",
+                    "state": "VIC",
+                    "suburb": "Mitcham",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "cf54effc-f53d-4b32-8a72-6fcb05a4d427",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": null,
+                    "asContactCardFormat": "Roxburgh Park VIC 3064",
+                    "distance": null,
+                    "geoCodeGranularity": "SUBURB",
+                    "latitude": "-37.6313626",
+                    "listingId": "14107801",
+                    "longitude": "144.9237084",
+                    "postCode": "3064",
+                    "productId": "999903210932",
+                    "productVersion": 4,
+                    "state": "VIC",
+                    "suburb": "Roxburgh Park"
+                },
+                "advertiserId": "901888182",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "901888182",
+                "businessPresenceId": "cf54effc-f53d-4b32-8a72-6fcb05a4d427",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "0425 718 230",
+                    "metered": false,
+                    "type": {
+                        "name": "MOBILE"
+                    },
+                    "value": "0425718230"
+                },
+                "category": {
+                    "id": "10774",
+                    "name": "Massage Therapy"
+                },
+                "categoryText": "Massage Therapy - Roxburgh Park, VIC 3064",
+                "categoryUrl": "/find/massage-therapy/roxburgh-park-vic-3064",
+                "contentGroupId": "8ddc8bb1-626f-4f94-8567-9779453a1078",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/roxburgh-park/laser-acupuncture-and-laser-pain-therapy-14107801-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "SUBURB",
+                    "latitude": "-37.6313626",
+                    "longitude": "144.9237084"
+                },
+                "hasDeeperContent": false,
+                "id": "14107801",
+                "isTopOfList": false,
+                "lastUpdated": "2020-08-31T02:18:31Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Laser Acupuncture And Laser Pain Therapy",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "cf54effc-f53d-4b32-8a72-6fcb05a4d427",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": null,
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "SUBURB",
+                    "latitude": "-37.6313626",
+                    "longitude": "144.9237084",
+                    "mappable": false,
+                    "postCode": "3064",
+                    "state": "VIC",
+                    "suburb": "Roxburgh Park",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999903210932",
+                "productVersion": 4,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/roxburgh-park/laser-acupuncture-and-laser-pain-therapy-14107801-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "4202159",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": null,
+                    "emsPostcode": "3064",
+                    "emsState": "VIC",
+                    "emsSuburb": "ROXBURGH PARK",
+                    "geoCodeGranularity": "SUBURB",
+                    "latitude": "-37.6313626",
+                    "longitude": "144.9237084",
+                    "mappable": false,
+                    "postCode": "3064",
+                    "state": "VIC",
+                    "suburb": "Roxburgh Park",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "41acae16-f5bc-4cb8-9aea-7014faaaa8d1",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "Unit 3 309 Stud Rd",
+                    "asContactCardFormat": "Unit 3 309 Stud Rd, Wantirna South VIC 3152",
+                    "distance": "24.81km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.8662",
+                    "listingId": "13350662",
+                    "longitude": "145.23726",
+                    "postCode": "3152",
+                    "productId": "999901922800",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Wantirna South"
+                },
+                "advertiserId": "473729829",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "473729829",
+                "businessPresenceId": "41acae16-f5bc-4cb8-9aea-7014faaaa8d1",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 9887 0566",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0398870566"
+                },
+                "category": {
+                    "id": "25747",
+                    "name": "Health Food Stores"
+                },
+                "categoryText": "Health Food Stores - Wantirna South, VIC 3152",
+                "categoryUrl": "/find/health-food-stores/wantirna-south-vic-3152",
+                "contentGroupId": "eaefdd1f-02b7-49eb-85aa-e36284b2d0c0",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/wantirna-south/eastern-gate-acupuncture-herbal-medicine-clinic-p-l-13350662-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-37.8662",
+                    "longitude": "145.23726"
+                },
+                "hasDeeperContent": false,
+                "id": "13350662",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T08:06:06Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Eastern Gate Acupuncture & Herbal Medicine Clinic P/L",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "41acae16-f5bc-4cb8-9aea-7014faaaa8d1",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "Unit 3 309 Stud Rd",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.8662",
+                    "longitude": "145.23726",
+                    "mappable": true,
+                    "postCode": "3152",
+                    "state": "VIC",
+                    "suburb": "Wantirna South",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999901922800",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/wantirna-south/eastern-gate-acupuncture-herbal-medicine-clinic-p-l-13350662-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "1042256",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "Unit 3 309 Stud Rd",
+                    "emsPostcode": "3152",
+                    "emsState": "VIC",
+                    "emsSuburb": "WANTIRNA SOUTH",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-37.8662",
+                    "longitude": "145.23726",
+                    "mappable": true,
+                    "postCode": "3152",
+                    "state": "VIC",
+                    "suburb": "Wantirna South",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            },
+            {
+                "aboutId": "dae8df0d-cc0b-4f08-aff0-b95bb0339fff",
+                "accreditationTexts": null,
+                "addressView": {
+                    "addressLine": "4 Maberley Crst",
+                    "asContactCardFormat": "4 Maberley Crst, Frankston South VIC 3199",
+                    "distance": "43.68km",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-38.18235",
+                    "listingId": "15094026",
+                    "longitude": "145.13422",
+                    "postCode": "3199",
+                    "productId": "999015837829",
+                    "productVersion": 3,
+                    "state": "VIC",
+                    "suburb": "Frankston South"
+                },
+                "advertiserId": "481099696",
+                "averageRatings": {
+                    "yellowReviewSummary": null
+                },
+                "bookingButton": false,
+                "businessId": "481099696",
+                "businessPresenceId": "dae8df0d-cc0b-4f08-aff0-b95bb0339fff",
+                "callContactNumber": {
+                    "classification": {
+                        "name": "PREFERRED"
+                    },
+                    "description": null,
+                    "displayValue": "(03) 5971 1091",
+                    "metered": false,
+                    "type": {
+                        "name": "PHONE"
+                    },
+                    "value": "0359711091"
+                },
+                "category": {
+                    "id": "30961",
+                    "name": "Naturopaths"
+                },
+                "categoryText": "Naturopaths - Frankston South, VIC 3199",
+                "categoryUrl": "/find/naturopaths/frankston-south-vic-3199",
+                "contentGroupId": "dca53011-5a36-4e61-bb83-ee1252b89087",
+                "contentScore": 0,
+                "detailsLink": "https://www.yellowpages.com.au/vic/frankston-south/southern-acupuncture-natural-therapies-15094026-listing.html",
+                "externalLinks": [],
+                "freeListing": true,
+                "geoData": {
+                    "granularity": "PROPERTY",
+                    "latitude": "-38.18235",
+                    "longitude": "145.13422"
+                },
+                "hasDeeperContent": false,
+                "id": "15094026",
+                "isTopOfList": false,
+                "lastUpdated": "2016-04-20T05:09:42Z",
+                "legalId": null,
+                "listingAvatarUrl": null,
+                "logoUrl": null,
+                "longDescriptor": null,
+                "name": "Southern Acupuncture & Natural Therapies",
+                "openingHoursView": {
+                    "openToday": "Friday",
+                    "openingHours": {},
+                    "openingTimeToday": null
+                },
+                "orpContext": "businessTypeSearch",
+                "pmbServicingMessage": null,
+                "presenceId": "dae8df0d-cc0b-4f08-aff0-b95bb0339fff",
+                "priceQualifier": null,
+                "primaryAddress": {
+                    "addressLine": "4 Maberley Crst",
+                    "emsPostcode": null,
+                    "emsState": null,
+                    "emsSuburb": null,
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-38.18235",
+                    "longitude": "145.13422",
+                    "mappable": true,
+                    "postCode": "3199",
+                    "state": "VIC",
+                    "suburb": "Frankston South",
+                    "type": "PHYSICAL"
+                },
+                "primaryEmail": null,
+                "productCode": "YPD00",
+                "productId": "999015837829",
+                "productVersion": 3,
+                "pureMobileBusiness": false,
+                "quotingButton": false,
+                "referredBy": "UNKNOWN",
+                "relativeDetailsLink": "/vic/frankston-south/southern-acupuncture-natural-therapies-15094026-listing.html",
+                "resultType": "O",
+                "salesforceServiceNumber": "882176",
+                "score": 0,
+                "searchableAddress": {
+                    "addressLine": "4 Maberley Crst",
+                    "emsPostcode": "3199",
+                    "emsState": "VIC",
+                    "emsSuburb": "FRANKSTON SOUTH",
+                    "geoCodeGranularity": "PROPERTY",
+                    "latitude": "-38.18235",
+                    "longitude": "145.13422",
+                    "mappable": true,
+                    "postCode": "3199",
+                    "state": "VIC",
+                    "suburb": "Frankston South",
+                    "type": "PHYSICAL"
+                },
+                "seniorityDate": null,
+                "seoSnippetSummary": null,
+                "textDescriptor": null,
+                "uniqueSellingPoints": [],
+                "vCitaId": null,
+                "website": null
+            }
+        ],
+        "isFindRequest": true,
+        "isQuotableCategory": false,
+        "lat": null,
+        "locationClue": "vic",
+        "loggedInUser": null,
+        "loginUrl": "https://www.yellowpages.com.au/auth/login/sensis?forwardURI=%2Ffind%2Facupuncture%2Fvic%2Fpage-22",
+        "logoutUrl": "https://www.yellowpages.com.au/auth/logout?forwardURI=%2Ffind%2Facupuncture%2Fvic%2Fpage-22",
+        "lon": null,
+        "mostRelevantCategoryId": "27154",
+        "mostRelevantCategoryName": "Acupuncture",
+        "orpContext": "businessTypeSearch",
+        "pageDescription": "Find and Compare Acupuncture near VIC. Get Reviews, Location and Contact details.",
+        "pageTitle": "21 BEST local Acupuncture in VIC | Yellow Pages\u00ae - Page 22",
+        "pagination": {
+            "currentPage": 22,
+            "nextPageLink": null,
+            "previousPageLink": "/find/acupuncture/vic/page-21",
+            "searchResultsPerPage": 35,
+            "totalResults": 756
+        },
+        "quotesWizard": null,
+        "recaptchaV3SiteKey": "6LfP1zAbAAAAADJYwL7vLfP1djdo-24SWdkIJxl2",
+        "relatedArticles": {
+            "articles": [
+                {
+                    "categoryUrl": "/articles/doctors-medical-practitioners",
+                    "content": "<h3>How much does an MRI cost?</h3>\n<p>Wondering how much does an MRI cost in Australia? Typically, you can expect an MRI scan price to range between $0 and $1,000 or more. According to the Australian Diagnostic Imaging Association, the average MRI cost is $523, while that average gap patients pay after the Medicare rebate is applied is about $200.</p>\n<p>The total cost of MRI in Australia will depend on a range of factors, such as whether you qualify for a Medicare rebate or if you can claim MRI on private health.</p>\n<p>In this MRI price guide, we explore:</p>\n<ul>\n<li>What is an MRI scan?</li>\n<li>What factors affect the cost of MRI scan?</li>\n<li>How much does an MRI cost?</li>\n<li>Does private health cover MRI scans?</li>\n<li>Are MRI covered by Medicare, bulk bill MRI, and more.</li>\n</ul>\n<h6>Want to find a local doctor in <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/sydney-cbd-nsw\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/melbourne-cbd-vic\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/24-hour-doctor/brisbane-cbd-qld\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/adelaide-cbd-sa\">Adelaide</a> or <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/perth-wa-6000\">Perth</a>?</h6>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignnone wp-image-35073 size-large\" src=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-1024x683.jpg\" alt=\"What is an MRI scan\" width=\"1024\" height=\"683\" srcset=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-1024x683.jpg 1024w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-300x200.jpg 300w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-768x512.jpg 768w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-1536x1024.jpg 1536w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-2048x1366.jpg 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></p>\n<h3>What is an MRI scan?</h3>\n<p>MRI, or Magnetic Resonance Imaging, is a medical imaging technique used to produce detailed pictures of the internal structures of the body. It uses strong magnetic fields and radio waves to generate images of organs, the body&#8217;s soft tissues, bones, muscles and other structures inside the body. This non-invasive technique assists in diagnosing various health conditions without the use of ionising radiation.</p>\n<p>During an MRI scan, the patient lies down on a movable table that slides into the MRI machine, which is a large, tube-shaped structure that houses a powerful magnet. It&#8217;s important to stay as still as possible to ensure clear images.</p>\n<p>Radio waves are directed at the body, causing the nuclei of certain atoms to emit signals. These signals are captured by receivers and processed by a computer to generate detailed cross-sectional images of the body. The scan can take anywhere from 30 minutes to over an hour, depending on the area being examined and the specific imaging protocol.</p>\n<p>Overall, an MRI scan is a safe, non-invasive procedure that provides detailed images to help diagnose and monitor various medical conditions, such as soft-tissue injuries, tumours, infections, and abnormalities in the brain, spine, joints, and internal organs.</p>\n<h6>You might like: <a href=\"https://www.yellowpages.com.au/articles/doctors-medical-practitioners/what-are-the-benefits-of-shared-care-with-a-gp\">What are the benefits of shared care with a GP?</a></h6>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignnone wp-image-35072 size-large\" src=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-cost-1024x683.jpg\" alt=\"bulk billed MRI near me\" width=\"1024\" height=\"683\" srcset=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-cost-1024x683.jpg 1024w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-cost-300x200.jpg 300w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-cost-768x512.jpg 768w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-cost-1536x1024.jpg 1536w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-cost-2048x1365.jpg 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></p>\n<h3>What factors affect the cost of MRI scan?</h3>\n<p>Several factors influence the cost of MRI in Australia, including:</p>\n<ul>\n<li><strong>Type of MRI scan: </strong>Specific body part, such as brain, knee, etc. Complex scans or those requiring contrast agents (dyes) be injected to improve image clarity tend to be more expensive.</li>\n<li><strong>Public vs. Private</strong>: Public hospitals cover MRIs for inpatients, while private imaging centres may charge higher fees.</li>\n<li><strong>Geographical location: </strong>MRI costs can vary depending on the location of the facility, with metropolitan areas potentially having higher costs compared to regional or rural areas. For example, MRI cost in Sydney or Melbourne is typically higher than in Queensland.</li>\n<li><strong>Referral</strong>: Scans referred by a surgeon, specialist or under specific medical conditions might be eligible for Medicare rebates, while GP referrals may not always be covered.</li>\n<li><strong>Medicare coverage eligibility: </strong>Some MRI services are covered by Medicare if they meet specific criteria and are referred by a specialist. Eligible scans can significantly reduce out-of-pocket costs for patients. If the imaging center offers bulk billing and the scan is Medicare-eligible, there may be no out-of-pocket expenses.</li>\n<li><strong>Private Health Insurance</strong>: The extent of coverage depends on the individual&#8217;s health insurance policy. Some policies may cover part or all of the cost, while others might not cover MRI scans at all. Even with insurance, there may be a gap fee that the patient needs to pay if the insurance doesn&#8217;t cover the full amount.</li>\n<li><strong>Machine Type</strong>: Advanced MRI machines with higher resolution capabilities might be more expensive to use, leading to higher scan costs.</li>\n</ul>\n<p>We advise checking with your <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/australia\">healthcare provider</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/australia\">imaging center</a>, and <a href=\"https://www.yellowpages.com.au/see/health-insurance\">insurance company</a> to get a clear understanding of the costs involved and any potential rebates or coverage options.</p>\n<h6>Looking for a MRI near me in <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/sydney-nsw-2000\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/melbourne-vic-3000\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/brisbane-qld-4000\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/perth-wa-6000\">Perth</a> or <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/adelaide-sa-5000\">Adelaide</a>?</h6>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignnone size-large wp-image-35067\" src=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/Is-MRI-covered-by-Medicare-1024x683.jpg\" alt=\"Does Medicare cover MRI in Australia\" width=\"1024\" height=\"683\" srcset=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/Is-MRI-covered-by-Medicare-1024x683.jpg 1024w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/Is-MRI-covered-by-Medicare-300x200.jpg 300w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/Is-MRI-covered-by-Medicare-768x512.jpg 768w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/Is-MRI-covered-by-Medicare-1536x1024.jpg 1536w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/Is-MRI-covered-by-Medicare-2048x1365.jpg 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></p>\n<h3>How much does an MRI cost?</h3>\n<p>How much is an MRI in Australia? According to the Department of Heath and Aged Care, the cost of MRI in Australia ranges between $355.45 and $1,269.40, depending on the area of the body being scanned and the reason for the MRI. For instance, a head scan typically costs about $426.50, while a scan to look at problems with the ankle or foot is about $523. These costs are before any rebates or health insurance have been applied.</p>\n<p>For a public hospital patient, a MRI scan is a free inpatient service. However, depending on your circumstances, an outpatient will have some out-of-pocket costs involved with getting an MRI scan. In some cases, MRI bulk billing is an option.</p>\n<h6>Looking for a bulk billed MRI near me in <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/sydney-nsw-2000\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/melbourne-vic-3000\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/brisbane-qld-4000\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/perth-wa-6000\">Perth</a> or <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/adelaide-sa-5000\">Adelaide</a>?</h6>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignnone size-large wp-image-35068\" src=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/cost-of-MRI-scan-1024x680.jpg\" alt=\"Does private health cover MRI\" width=\"1024\" height=\"680\" srcset=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/cost-of-MRI-scan-1024x680.jpg 1024w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/cost-of-MRI-scan-300x199.jpg 300w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/cost-of-MRI-scan-768x510.jpg 768w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/cost-of-MRI-scan-1536x1020.jpg 1536w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/cost-of-MRI-scan-2048x1360.jpg 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></p>\n<h3>Is MRI covered by Medicare Australia?</h3>\n<p>Does Medicare cover MRI in Australia? Yes, Medicare covers most MRI scans, but specific criteria and conditions must be met for eligibility. The MRI scan must be deemed medically necessary and referred by a specialist or, in certain cases, a general practitioner (GP) under specific conditions.</p>\n<ul>\n<li><strong>Public patient in a public hospital (no health insurance)</strong>: Medicare covers the full MBS fee (100%).</li>\n<li><strong>Out-of-hospital MRI scan with a specialist referral</strong>: Medicare covers 85% of the cost.</li>\n</ul>\n<p>Medicare covers MRI scans for particular conditions involving the brain, spine, knee, hip, and some other body parts. For example, Medicare covers brain MRIs for conditions like stroke and multiple sclerosis, spinal MRIs for suspected disc herniation, knee MRIs for patients under 50 with suspected internal joint derangement, and breast MRIs in specific cases.</p>\n<p>If an MRI scan is Medicare-eligible and the imaging center offers bulk billing, the entire cost of the scan may be covered, resulting in no out-of-pocket expenses for the patient. However, if the MRI does not meet Medicare\u2019s criteria, patients will need to cover the full cost or use private health insurance if available.</p>\n<p>Even if there&#8217;s a MRI Medicare rebate for part of the cost, there might be a gap fee if the imaging center does not bulk bill. Patients should consult their healthcare provider to determine if their MRI scan is eligible for Medicare coverage and to get the necessary referrals and information.</p>\n<h6>Looking for a MRI near me in <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/sydney-nsw-2000\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/melbourne-vic-3000\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/brisbane-qld-4000\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/perth-wa-6000\">Perth</a> or <a href=\"https://www.yellowpages.com.au/find/diagnostic-radiology/adelaide-sa-5000\">Adelaide</a>?</h6>\n<p><img decoding=\"async\" loading=\"lazy\" class=\"alignnone size-large wp-image-35071\" src=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-prices-1024x768.jpg\" alt=\"Can an MRI be bulk billed in Australia\" width=\"1024\" height=\"768\" srcset=\"https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-prices-1024x768.jpg 1024w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-prices-300x225.jpg 300w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-prices-768x576.jpg 768w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-prices-1536x1152.jpg 1536w, https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/mri-prices.jpg 1999w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></p>\n<h3>Does private health cover MRI?</h3>\n<p>Can you claim MRI on private health? Yes, in Australia, you can claim an MRI on private health insurance. The extent of coverage varies depending on your insurance policy. Generally, private health insurance policies are divided into extras cover and hospital cover.</p>\n<p>Extras cover typically does not include MRI scans, while hospital cover might provide coverage for MRI scans. This is true especially if they are part of an inpatient service or a pre-admission requirement for a public or private hospital procedure. Get in touch with your health insurer to find out about your MRI coverage.</p>\n<ul>\n<li><strong>Private patient in a public hospital</strong>: Medicare covers 75% of the cost, and your health insurer covers the remaining gap.</li>\n<li><strong>Private patient in a private hospital</strong>: Medicare also covers 75% of the cost, with your health insurer covering the rest.</li>\n</ul>\n<h6>Want to find a local doctor in <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/sydney-cbd-nsw\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/melbourne-cbd-vic\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/24-hour-doctor/brisbane-cbd-qld\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/adelaide-cbd-sa\">Adelaide</a> or <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/perth-wa-6000\">Perth</a>?</h6>\n<p>*All\u00a0prices quoted were sourced from the MBS at the time this cost guide was written and should only be used as an estimate.</p>\n",
+                    "thumbnail": "https://yellowarticles.wpengine.com/wp-content/uploads/2024/07/how-much-does-an-mri-cost-in-australia-150x150.jpg",
+                    "title": "How much does an MRI cost in Australia? [2024]",
+                    "url": "/articles/doctors-medical-practitioners/how-much-does-an-mri-cost"
+                },
+                {
+                    "categoryUrl": "/articles/doctors-medical-practitioners",
+                    "content": "<p>Shared care for maternity patients is a type of care where healthy women with low-risk pregnancies use the shared services of a GP and a birthing hospital.</p>\n<p>Shared care is gaining popularity across Australia for those using the public system as it works to streamline prenatal care. It ensures many patients in rural areas are offered the maternity care they need in the event the pregnancy is classified as low-risk.</p>\n<h3>Why is shared care popular for healthy pregnant women in Australia?</h3>\n<p>This style of maternity care works well for women that have a long-standing and close relationship with their GP.</p>\n<h4><i>Want to find a local doctor in <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/sydney-cbd-nsw\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/melbourne-cbd-vic\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/24-hour-doctor/brisbane-cbd-qld\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/adelaide-cbd-sa\">Adelaide</a> or <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/perth-wa-6000\">Perth</a>?</i></h4>\n<h5>Benefits of shared care for maternity patients:</h5>\n<ul>\n<li><strong>Women often feel more comfortable with their GP &#8211;</strong> Many women feel comfortable with their GP. If they have a long-standing GP in place, shared care is a wonderful option to ensure their general practitioner has a deep understanding of an individual\u2019s medical history and cultural beliefs.</li>\n<li><strong>Shared care with a GP is often locally based &#8211;</strong> and if a general practitioner is located close to their home and has a full rundown of their medical history, shared care is a great option.</li>\n<li><strong>Helpful for women with English as a second language &#8211;</strong> As well as this, many women who have English as their second language might have a GP that speaks their first language and understands their cultural needs, making shared care a viable option.</li>\n<li><strong>Low-risk pregnancies can be supported with GP care &#8211;</strong> Instead of monthly, fortnightly and weekly appointments with an obstetrician which can be difficult when women are in rural areas, shared care means women get quality care without needing to travel long distances to access specialist care.</li>\n</ul>\n<p>Overall, shared care with a GP for maternity care means women have the comfort of seeing their local GP in combination with an experienced obstetrician.</p>\n<h6>You might like: <a href=\"https://www.yellowpages.com.au/articles/doctors-medical-practitioners/how-much-does-an-mri-cost\">How much does an MRI cost?</a></h6>\n<h3>What does shared care with a GP cost during pregnancy?</h3>\n<p>The cost will be the same as your usual GP visit &#8211; and if your GP bulk bills &#8211; there might not be any out of pocket expense at all!</p>\n<p>If your local GP offers shared care services and is accredited with the hospital you are looking to deliver your baby, you can ask about the costs involved and whether they bulk bill.</p>\n<p>During your pregnancy, the costs of seeing obstetricians can add up as you usually have monthly antenatal visits until 28 weeks, then switch to fortnightly, and finally weekly at 36 weeks.</p>\n<p>Shared care offers quality care, without the high cost and inconvenience of having to visit an obstetrician.</p>\n<h4><i>Want to find a local doctor in <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/sydney-cbd-nsw\">Sydney</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/melbourne-cbd-vic\">Melbourne</a>, <a href=\"https://www.yellowpages.com.au/find/24-hour-doctor/brisbane-cbd-qld\">Brisbane</a>, <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/adelaide-cbd-sa\">Adelaide</a> or <a href=\"https://www.yellowpages.com.au/find/doctors-medical-practitioners/perth-wa-6000\">Perth</a>?</i></h4>\n<h3>How do I find a shared care maternity provider?</h3>\n<p>Your local public hospital will be able to share the essential information you need to find a shared care GP in your local area.</p>\n<p>Check with your antenatal clinic and have a chat with them to find which GP\u2019s offer shared care maternity services or ask your friends and family if they have any recommendations for shared care GPs in your local area.</p>\n",
+                    "thumbnail": "https://yellowarticles.wpengine.com/wp-content/uploads/2022/02/medical-centre-150x150.png",
+                    "title": "What are the benefits of shared care with a GP?",
+                    "url": "/articles/doctors-medical-practitioners/what-are-the-benefits-of-shared-care-with-a-gp"
+                },
+                {
+                    "categoryUrl": "/articles/doctors-medical-practitioners",
+                    "content": "<p>Your throat is itchy, your nose is running, and you\u2019re feeling generally achy and tired. But do you have a cold or the flu? The symptoms can be quite similar as both are respiratory illnesses, but they\u2019re caused by different viruses. Here\u2019s how to tell the difference between the two.</p>\n<p><strong>How to tell if you\u2019ve got the flu</strong></p>\n<p>If you\u2019re freezing cold one minute and burning up the next, it\u2019s a sign you\u2019ve come down with a fever, which is most commonly associated with influenza. Similarly, fatigue and weakness usually go hand-in-hand with the flu, so if your body feels as heavy as lead and you just can\u2019t drag yourself out of bed, influenza is probably the culprit.</p>\n<p>While many of the symptoms of cold and flu overlap, the most marked difference between the two is how long the symptoms last for and how unwell you feel. Influenza is a serious illness that can leave you bedridden for up to two weeks and lead to complications if your immune system is compromised.</p>\n<p>Common flu symptoms include:</p>\n<ul>\n<li>A high fever (38 \u00b0C or more)</li>\n<li>A dry cough</li>\n<li>Body aches</li>\n<li>Weakness and fatigue</li>\n<li>Sore throat</li>\n<li>Runny nose</li>\n<li>Loss of appetite</li>\n</ul>\n<p><strong>How to tell if you\u2019ve got a cold</strong></p>\n<p>Although having a cold is never fun, the good news is that the symptoms tend to be less severe than the flu and clear up more quickly. You might have a stuffy nose, sore throat and headache, but if you still feel as though you can get up and do things, you\u2019ve probably come down with a cold.</p>\n<p>Cold symptoms tend to dissipate over about a week and are usually mild enough that you wouldn\u2019t need to take more than a day or two off work.</p>\n<p>Common cold symptoms include:</p>\n<ul>\n<li>A stuffy or runny nose</li>\n<li>Sneezing</li>\n<li>Sore throat</li>\n<li>Cough</li>\n<li>Headache</li>\n<li>Red eyes</li>\n<li>Swelling of glands</li>\n<li>Mild fever</li>\n</ul>\n<p>If you\u2019re under the weather but you\u2019re not sure if it\u2019s a cold or the flu, <a href=\"https://www.yellowpages.com.au/find/gp\">make an appointment with a GP </a>\u00a0to be safe.</p>\n",
+                    "thumbnail": "https://yellowarticles.wpengine.com/wp-content/uploads/2022/02/cold-vs-flu-wide-square-150x150.jpg",
+                    "title": "Cold vs. flu: what\u2019s the difference?",
+                    "url": "/articles/doctors-medical-practitioners/cold-vs-flu-whats-the-difference"
+                },
+                {
+                    "categoryUrl": "/articles/doctors-medical-practitioners",
+                    "content": "<p>Women\u2019s Health Week runs from September 4 \u2013 8, and even though health should be important year round, it\u2019s the perfect reason to make your wellbeing a top priority.</p>\n<p>Start by rearranging your extensive to-do list and pull your health from the back of the queue right to the front. Whether you\u2019ve been meaning to get a check-up or make a plan to cut down on your sugar intake, this week is the time to make it happen. It\u2019s all too easy to let those important check-ups fall by the wayside, so here are some of the essentials for women of all ages.</p>\n<h6>You might like: <a href=\"https://www.yellowpages.com.au/articles/doctors-medical-practitioners/how-much-does-an-mri-cost\">How much does an MRI cost?</a></h6>\n<p><strong>Start in your 20s </strong></p>\n<p>Even though it\u2019s unlikely anything major will crop up in your 20s, it\u2019s still best to double check for peace of mind, and it will help get you into the habit of keeping an eye on your health for later in life.</p>\n<ul>\n<li><strong>Melanoma checks:</strong> It goes without saying that this nasty devil is one of Australia\u2019s worst offenders. In fact, we have the highest rates of melanoma in the world. That\u2019s why you should always wear sunscreen, and start getting checked at a young age.</li>\n<li><strong>Pap smear:</strong> This vital test can spot the early signs of cervical cancer, so even if you\u2019re a little squeamish about getting one for the first time, just think how much better it is to have the peace of mind it offers. Take your bestie and get it done \u2013 then treat yourselves to brunch after.</li>\n<li><strong>STD tests:</strong> This is one of those tests that\u2019s actually most important in your 20s, as sexually transmitted diseases are most common among the young\u2019uns. Aim to get one each year, and/or when beginning a new relationship.</li>\n</ul>\n<p><strong>Add a few in your 30s</strong></p>\n<ul>\n<li><strong>HPV screening:</strong> The human papillomavirus is a fairly common infection in sexually active women, and it\u2019s also the leading cause of cervical cancer. At around the age of 30, you\u2019ll need to start getting tested as this is when the immune system isn\u2019t quite the powerhouse it once was. Keep it simple by getting this check done with your regular pap smear.</li>\n<li><strong>Full physical:</strong> A full check-up with your doctor is a good catch-all for a number of health indicators. They\u2019ll take a look at your blood pressure, cholesterol, blood sugar, vitamin levels, liver and kidney function, and a few other basics that can indicate if there are any problems. Make sure you sign up for recurring <a href=\"https://www.yellowpages.com.au/find/gp\">appointments at your local</a> GP each year so you don\u2019t forget.</li>\n</ul>\n<p><strong>Keep being responsible in your 40s</strong></p>\n<ul>\n<li><strong>Mammograms:</strong> A mammogram is an x-ray that screens for early signs of breast cancer. While you should also be doing regular self-checks, beginning your mammograms in your 40s is a good way of making sure you\u2019re getting checked out thoroughly.</li>\n<li><strong>Diabetes tests:</strong> Diabetes is the fastest growing condition in Australia, with 280 Aussies being diagnosed every single day. A healthy weight, plenty of exercise and dietary choices that you won\u2019t be embarrassed to share with your doctor are the best ways to prevent this disease, but getting regular checks is vital as well.</li>\n</ul>\n<p><strong>New tests in your 50s and beyond</strong></p>\n<ul>\n<li><strong>Colonoscopy:</strong> There aren\u2019t many ways to sugar coat this one so we won\u2019t even try. Just go, then treat yourself to something nice after, and remember that you only need this one every decade or so!</li>\n</ul>\n<p>Of course, your family history, lifestyle (such as whether you smoke) and other factors will all play into which tests you should have and how often \u2013 so <a href=\"https://www.yellowpages.com.au/find/doctor\">find a doctor</a> you can trust and make regular check-ups a priority.</p>\n",
+                    "thumbnail": "https://yellowarticles.wpengine.com/wp-content/uploads/2022/02/womens-health-square-150x150.jpg",
+                    "title": "Essential health checks for women of all ages",
+                    "url": "/articles/doctors-medical-practitioners/essential-health-checks-for-women-of-all-ages"
+                },
+                {
+                    "categoryUrl": "/articles/doctors-medical-practitioners",
+                    "content": "<p>We\u2019re deep into flu season, which means everywhere you turn, you\u2019re likely to hear someone with that tell-tale cough or sniffly nose. And while there are things you can do to help <a href=\"http://cms-ya-migration.local:8080/articles/pharmacies/2017-flu-season-worst-in-years\" target=\"_blank\">reduce your chances of coming down with the flu,</a> one of the most important factors to consider is what you put into your body. Try these flu-fighting foods to help give your immune system the best chance of fighting off the virus.</p>\n<p><strong>Leafy greens</strong></p>\n<p>There\u2019s a reason your mum always told you to eat your greens, and that\u2019s because they\u2019re absolutely packed full of nutritional goodness. Greens like spinach, kale, and rocket are very high in vitamin C, which is essential for maintaining a healthy immune system. So get stuck in, and remember \u2013 as a general rule, the darker the greens, the more nutrients they contain.</p>\n<p>How to eat them:</p>\n<ul>\n<li>Salads</li>\n<li>Stir-fries</li>\n<li>Spinach and eggs</li>\n<li>Kale chips (easy to make at home in your oven!)</li>\n</ul>\n<p><strong>Turmeric</strong></p>\n<p>Turmeric has garnered a reputation for being one of the world\u2019s top superfoods, and for good reason. It\u2019s high in antioxidants, acts a natural anti-inflammatory, and can help reduce your susceptibility to flu and colds. To make a simple turmeric tea, add a teaspoon of turmeric with a pinch of cinnamon and cloves and a dash of honey into a cup of boiling water.</p>\n<p>This spice can be added to almost anything to give it a flavourful kick! Try adding it to things like:</p>\n<ul>\n<li>Roasted vegetables</li>\n<li>Rice dishes</li>\n<li>Soups and stews</li>\n<li>Blended into a green smoothie</li>\n</ul>\n<p><strong>Garlic</strong></p>\n<p>Allicin, the active ingredient in garlic, has been shown to reduce the length and severity of cold and flu symptoms. While you can take a garlic supplement, allicin is more readily absorbed by the body when you eat the real thing, so try a garlic soup or even eat a clove or two raw a day (if you can handle it) for the biggest impact.</p>\n<p>Garlic is another one of those foods that can be added to almost any savoury dish you can think of. Cook it with:</p>\n<ul>\n<li>Scrambled eggs and omelettes</li>\n<li>Salsas and Mexican-inspired food</li>\n<li>Italian dishes</li>\n</ul>\n<p><strong>Oranges</strong></p>\n<p>Back to vitamin C appreciation; oranges are an excellent source of it, and eating them may help prevent the onset of flu by boosting your immune system. Other fruits like strawberries and kiwi fruit are also very high in vitamin C, so flu season is a great excuse to whip up a delicious fruit salad.</p>\n<p>How to eat it:</p>\n<ul>\n<li>A sweet start to breakfast (in wedges or juice form)</li>\n<li>For a light dessert, paired with a few squares of dark chocolate</li>\n<li>Orange juice makes a great addition to Asian-inspired sauces</li>\n</ul>\n<p><strong>Lean meat</strong></p>\n<p>Lean meat is high in iron and zinc, both of which are important in maintaining healthy immune function. While red meat is highest in iron, other lean meats such as chicken and fish are also rich in nutrients that can help you fight those flu bugs.</p>\n<p>How to eat it: This one is easy to incorporate into your everyday eating. For something a little different, try adding kangaroo into your favourite dishes.</p>\n<p><strong>Green tea</strong></p>\n<p>Green tea has been used in traditional Chinese medicine for centuries, and nowadays is touted throughout the world for its antioxidant properties. A hot cup of green tea will not only help soothe a sore throat, but can also help fortify your immune system.</p>\n<p>How to drink it: We recommend starting your day with a cup of green tea.</p>\n<p><strong>Tuna</strong></p>\n<p>Tuna is an excellent source of selenium, which plays an important role in keeping your immune system in tip-top shape. Selenium also helps protect cells from free radical damage, so it\u2019s worth making sure you\u2019re getting enough of it in your diet all year round.</p>\n<p>How to eat it:</p>\n<ul>\n<li>Add it into salads as a protein</li>\n<li>Put it in a wrap or sandwich</li>\n<li>Make a poke bowl</li>\n<li>Enjoy some sushi</li>\n</ul>\n<p><strong>Pumpkin seeds</strong></p>\n<p>Pumpkin seeds are a great natural source of zinc, which helps white blood cells fight off infection in the body. A quarter-cup serving provides about 20% of the daily recommended intake of zinc, so they\u2019re a healthy and tasty snack option for flu season.</p>\n<p>How to eat them:</p>\n<ul>\n<li>Add to a salad for a delicious crunch</li>\n<li>Roasted seeds make a great at-work snack</li>\n<li>Crushed up with other ingredients, pumpkin seeds can be used as a healthier form of breading on chicken or fish</li>\n</ul>\n<p><strong>Mushrooms</strong></p>\n<p>Packed full of immune-boosting selenium and beta glucan (an antimicrobial type of fibre), mushrooms are a key weapon in your flu-fighting arsenal.</p>\n<p>How to eat them:</p>\n<ul>\n<li>Give yourself a big dose of mushroom-y goodness with a creamy mushroom soup</li>\n<li>Use them as a meat substitute (Portobello burgers, anyone?)</li>\n<li>Add them to a stir-fry or veggie lasagne</li>\n</ul>\n<p><strong>Chicken soup</strong></p>\n<p>Chicken soup has been a homemade flu remedy for as long as most of us can remember, and now there are studies to show that it helps with flu symptoms on a number of levels. A bowl of hearty chicken soup can reduce inflammation (lessening flu symptoms), helps keep you hydrated, and delivers lots of healthy nutrients from the chicken and veggies.</p>\n<p>How to eat it:</p>\n<ul>\n<li>Mix up the classic chicken soup with a dash of hot-sauce or Sriracha sauce</li>\n<li>Use the leftovers from a roast chicken as a base for your broth (and use that chicken in a healthy spinach, mushroom, and pumpkin-seed salad!)</li>\n</ul>\n<p><strong>While flu-fighting foods can help keep the virus at bay, if you\u2019re feeling under the weather, it\u2019s always best to </strong><a href=\"https://www.yellowpages.com.au/find/doctor\"><strong>make an appointment with a doctor</strong></a><strong>.</strong></p>\n",
+                    "thumbnail": "https://yellowarticles.wpengine.com/wp-content/uploads/2022/02/flu-fighting-foods-square-150x150.jpg",
+                    "title": "10 foods to fight off flu season",
+                    "url": "/articles/doctors-medical-practitioners/10-foods-to-fight-off-flu-season"
+                }
+            ],
+            "categoryUrl": "/articles/doctors-medical-practitioners",
+            "servicing": 0
+        },
+        "requestPageNumber": null,
+        "resolvedRegion": null,
+        "resolvedSearchLocation": "VIC",
+        "resolvedState": "VIC",
+        "resolvedSuburb": null,
+        "searchLocationSuburbOrRegion": "",
+        "searchResultMessage": {
+            "searchTerm": "Acupuncture",
+            "totalResults": 756
+        },
+        "searchResultMetadata": {
+            "dominantCategoryId": "35424",
+            "highestWeightedTermWeight": 0.52348,
+            "intent": "TYPE",
+            "locationTiers": null,
+            "reason": "OVERRIDE",
+            "roiRebalancingPerformed": true
+        },
+        "searchResultsPerPage": "35",
+        "searchedInSRPTrialHeading": false,
+        "seoMetaData": {
+            "canonicalUrl": "https://www.yellowpages.com.au/find/acupuncture/vic/page-22",
+            "description": "Find and Compare Acupuncture near VIC. Get Reviews, Location and Contact details.",
+            "pageTitle": null,
+            "paginationLinks": [
+                {
+                    "href": "https://www.yellowpages.com.au/find/acupuncture/vic/page-21",
+                    "rel": {
+                        "name": "PREV"
+                    }
+                }
+            ],
+            "robotsDirective": "NOIMAGEINDEX"
+        },
+        "seoSearchMessage": {
+            "nearbySuburbSearchLinks": null,
+            "popularCategoriesMessageLinks": null,
+            "relatedCategoriesMessageLinks": null
+        },
+        "targetMediaView": {
+            "nextPageUrl": null,
+            "orpContext": "businessTypeSearch",
+            "referredBy": "UNKNOWN",
+            "requestPageNumber": null,
+            "resultCount": 0,
+            "targetMediaListViews": []
+        },
+        "thryvAd": null,
+        "topOfList": null,
+        "url": null,
+        "useDecoratedClue": true,
+        "uspTest": {
+            "enabled": false,
+            "inTestGroup": false,
+            "splitTestGroupName": "default"
+        },
+        "yellowMetrics": {
+            "page": {
+                "adPoints": [
+                    "Back",
+                    "By Appointment",
+                    "Consultations",
+                    "Registered",
+                    "Headaches",
+                    "Neck",
+                    "Spine",
+                    "Arthritis",
+                    "Children",
+                    "Sciatica",
+                    "Accredited",
+                    "Injuries",
+                    "Rehabilitation",
+                    "Weight",
+                    "X-rays",
+                    "Orthopaedics",
+                    "Shoulders",
+                    "Pain",
+                    "Pain Management",
+                    "Knees",
+                    "Joints",
+                    "Allergies",
+                    "Ankles",
+                    "WorkCover",
+                    "Hands",
+                    "Feet",
+                    "Vaccinations",
+                    "Adults",
+                    "Pensioner Discount",
+                    "Hips"
+                ],
+                "category": {
+                    "id": "27154",
+                    "name": "Acupuncture"
+                },
+                "hasTOL": false,
+                "hasVcitaButton": false,
+                "intent": "type",
+                "location": "vic",
+                "name": "Find",
+                "numberOfResults": 756,
+                "pageNumber": 22,
+                "reason": "OVERRIDE",
+                "resolvedLocation": {
+                    "postcode": "",
+                    "region": "",
+                    "state": "VIC",
+                    "suburb": ""
+                },
+                "searchedInSRPTrialHeading": false,
+                "servicingVisible": {
+                    "expression": "$(\".search-target-media:visible\").length > 0"
+                },
+                "sortType": "mostInfo",
+                "term": "acupuncture",
+                "view": "list"
+            },
+            "user": {
+                "advertiserIds": null,
+                "loggedIn": false,
+                "loginId": null,
+                "testGroup": "default",
+                "yellowGuid": "0d0efe3f-0171-42f1-9903-4726f658eaa3"
+            }
+        }
+    },
+    "page": "Search Results",
+    "stubbed": {},
+    "url": "http://ypol-microservices-prod.in.paws-sensis.com.au/reactrender/find/acupuncture/vic/page-22"
+}
