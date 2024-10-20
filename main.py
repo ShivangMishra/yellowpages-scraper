@@ -76,7 +76,7 @@ def scrape_emails_from_url(url):
     scraped_emails = set()
     logging.info(f"Scraping emails from {url}")
     try:
-        response = requests.get(url, headers=HEADERS)
+        response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         emails = re.findall(EMAIL_REGEX, soup.text)
