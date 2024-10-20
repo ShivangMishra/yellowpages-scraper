@@ -12,6 +12,13 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+INPUT_DIRECTORY = 'inputs'
+OUTPUT_DIRECTORY = os.path.join('outputs', time.strftime('%Y-%m-%d_%H-%M-%S'))
+LOG_DIRECTORY = 'state-logs'
+
+STATES_FILEPATH = os.path.join(INPUT_DIRECTORY, 'states.txt')
+CATEGORIES_FILEPATH = os.path.join(INPUT_DIRECTORY, 'categories.txt')
+
 BASE_URL = 'https://www.yellowpages.com.au/find'
 
 logging.basicConfig(level=logging.INFO,
@@ -22,11 +29,6 @@ EMAIL_REGEX = r'[a-z0-9\.-]+@[a-z0-9\.-]+(?=\b|[^a-z0-9._%+-])'
 # List of user agents to rotate
 USER_AGENTS = [
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36'
-    # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-    # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
-    # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
-    # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36',
-    # 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.38 Safari/537.36'
 ]
 
 HEADERS = {'User-Agent': random.choice(USER_AGENTS)}
@@ -54,14 +56,7 @@ EXCLUDED_DOMAINS = [
     'aussieweb.com.au',
     'hipages',
     'whereis.com',
-]
-
-OUTPUT_DIRECTORY = os.path.join('outputs', time.strftime('%Y-%m-%d_%H-%M-%S'))
-LOG_DIRECTORY = 'state-logs'
-
-STATES_FILEPATH = 'inputs/states.txt'
-CATEGORIES_FILEPATH = 'inputs/categories.txt'
-    
+]    
 
 def is_excluded_domain(url):
     return any(domain in url for domain in EXCLUDED_DOMAINS)
@@ -112,21 +107,21 @@ def append_to_excel(file_path, new_data, sheet_name):
 
 def process_item(item):
     name = item['name']
-    addressView = item['addressView'] or {'state': "Not Listed"}
-    state = addressView['state']
-    primaryEmail = item['primaryEmail']
-    contactNumber = item['callContactNumber']['value']
-    externalLinks = item['externalLinks'] or []
+    address_view = item['addressView'] or {'state': "Not Listed"}
+    state = address_view['state']
+    primary_email = item['primaryEmail']
+    contact_number = item['callContactNumber']['value']
+    external_links = item['externalLinks'] or []
     processed_item = {
         'name': name,
         'state': state,
-        'email (yellowpages)': primaryEmail,
-        'contact number': contactNumber
+        'email (yellowpages)': primary_email,
+        'contact number': contact_number
     }
     scraped_emails = set()
     root_domains = set()
     urls = set()
-    for link in externalLinks:
+    for link in external_links:
         if not link['url']:
             continue
         processed_item[f"url - {len(urls) + 1}"] = link['url']
@@ -170,17 +165,13 @@ def extract_initial_state(html_content):
 def scrape_yellowpages_au(base_url, filename, page=1):
 
     results = []
-    pagesScraped = page - 1
-    totalPages = 1
-    while pagesScraped < totalPages:
-        currentPage = pagesScraped + 1
-        logging.info(f"Sending request for {filename} page {currentPage}")
-        url = base_url + (f"/page-{currentPage}" if currentPage > 1 else "")
-        params = {
-            # "clue": search_term,
-            # "locationClue": location,
-            # "pageNumber": page
-        }
+    pages_scraped = page - 1
+    total_pages = 1
+    while pages_scraped < total_pages:
+        current_page = pages_scraped + 1
+        logging.info(f"Sending request for {filename} page {current_page}")
+        url = base_url + (f"/page-{current_page}" if current_page > 1 else "")
+        params = {}
 
         try:
             response = requests.get(url, params=params, headers=HEADERS)
@@ -189,34 +180,34 @@ def scrape_yellowpages_au(base_url, filename, page=1):
             logging.error(f"Request failed: {e}")
             break
 
-        logging.info(f"Scraping {filename} page {currentPage}")
+        logging.info(f"Scraping {filename} page {current_page}")
 
         # Extract window.__INITIAL_STATE__
         initial_state = extract_initial_state(response.text)
         if initial_state:
-            logging.info(f"extracted state for page {currentPage}")
-            with open(f'{LOG_DIRECTORY}/{filename}-{currentPage}.json',
+            logging.info(f"extracted state for page {current_page}")
+            with open(f'{LOG_DIRECTORY}/{filename}-{current_page}.json',
                       'w') as file:
                 json.dump(initial_state, file, indent=4)
 
             pagination = initial_state['model']['pagination']
             searchResultsPerPage = pagination['searchResultsPerPage']
             totalResults = pagination['totalResults']
-            totalPages = math.ceil(totalResults / searchResultsPerPage)
+            total_pages = math.ceil(totalResults / searchResultsPerPage)
 
-            if pagination['currentPage'] != currentPage:
+            if pagination['currentPage'] != current_page:
                 logging.error("PAGINATION CURRENT PAGE MISMATCH!")
                 logging.error(
-                    f"currentPage = {currentPage}, pagination.currentPage = {pagination['currentPage']}"
+                    f"currentPage = {current_page}, pagination.currentPage = {pagination['currentPage']}"
                 )
                 break
 
             items = initial_state['model']['inAreaResultViews']
-            processedItems = [process_item(item) for item in items]
-            append_to_excel(f'{OUTPUT_DIRECTORY}/' + filename + '.xlsx',processedItems, sheet_name=state)
+            processed_items = [process_item(item) for item in items]
+            append_to_excel(f'{OUTPUT_DIRECTORY}/' + filename + '.xlsx',processed_items, sheet_name=state)
 
-            pagesScraped += 1
-            if currentPage >= totalPages:
+            pages_scraped += 1
+            if current_page >= total_pages:
                 logging.info("Reached last page")
                 break
         else:
