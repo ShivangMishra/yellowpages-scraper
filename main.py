@@ -59,6 +59,9 @@ EXCLUDED_DOMAINS = [
 OUTPUT_DIRECTORY = 'outputs'
 LOG_DIRECTORY = 'state-logs'
 
+STATES_FILEPATH = 'inputs/states.txt'
+CATEGORIES_FILEPATH = 'inputs/categories.txt'
+    
 
 def is_excluded_domain(url):
     return any(domain in url for domain in EXCLUDED_DOMAINS)
@@ -90,16 +93,21 @@ def scrape_emails_from_url(url):
     return scraped_emails
 
 
-def append_to_excel(file_path, new_data):
+def append_to_excel(file_path, new_data, sheet_name):
     try:
-        existing_df = pd.read_excel(file_path)
+        with pd.ExcelWriter(file_path, engine='openpyxl', mode='a') as writer:
+            existing_df = pd.read_excel(file_path, sheet_name=sheet_name)
+            new_df = pd.DataFrame(new_data)
+            combined_df = pd.concat([existing_df, new_df], ignore_index=True)
+            combined_df.to_excel(writer, sheet_name=sheet_name, index=False)
     except FileNotFoundError:
-        existing_df = pd.DataFrame()
-
-    new_df = pd.DataFrame(new_data)
-    combined_df = pd.concat([existing_df, new_df], ignore_index=True)
-    combined_df.to_excel(file_path, index=False)
-
+        with pd.ExcelWriter(file_path, engine='openpyxl') as writer:
+            new_df = pd.DataFrame(new_data)
+            new_df.to_excel(writer, sheet_name=sheet_name, index=False)
+    except ValueError:
+        with pd.ExcelWriter(file_path, engine='openpyxl', mode='a') as writer:
+            new_df = pd.DataFrame(new_data)
+            new_df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 def process_item(item):
     name = item['name']
@@ -204,8 +212,7 @@ def scrape_yellowpages_au(base_url, filename, page=1):
 
             items = initial_state['model']['inAreaResultViews']
             processedItems = [process_item(item) for item in items]
-            append_to_excel(f'{OUTPUT_DIRECTORY}/' + filename + '.xlsx',
-                            processedItems)
+            append_to_excel(f'{OUTPUT_DIRECTORY}/' + filename + '.xlsx',processedItems, sheet_name=state)
 
             pagesScraped += 1
             if currentPage >= totalPages:
@@ -222,18 +229,16 @@ def scrape_yellowpages_au(base_url, filename, page=1):
 
 
 if __name__ == "__main__":
-    csv_file_path = 'inputs.csv'
-    with open(csv_file_path, mode='r') as file:
-        csv_reader = csv.DictReader(file)
-        for row in csv_reader:
-            category = row['category']
-            state = row['state']
-            try:
-                os.mkdir(f"{OUTPUT_DIRECTORY}/{state}")
-                os.mkdir(f"{LOG_DIRECTORY}/{state}")
-                logging.info(f"Created directory: '{state}'")
-            except Exception as e:
-                print(
-                    f"An error occurred while creating directory {state}: {e}")
+
+    states = []
+    categories = []
+    
+    with open(STATES_FILEPATH, mode='r') as states_file:
+        states = [line.strip() for line in states_file.readlines()]
+    with open(CATEGORIES_FILEPATH, mode='r') as categories_file:
+        categories = [line.strip() for line in categories_file.readlines()]
+    
+    for category in categories:
+        for state in states:
             base_url = f"{BASE_URL}/{category.lower().replace(' ', '-')}/{state.lower()}"
-            scrape_yellowpages_au(base_url, f'{state}/{category}')
+            scrape_yellowpages_au(base_url, f'{category}')
