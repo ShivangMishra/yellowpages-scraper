@@ -99,6 +99,7 @@ def create_table():
             name TEXT,
             contact TEXT,
             primary_email TEXT,
+            website TEXT,
             state TEXT,
             source_url TEXT,
             owner TEXT,
@@ -131,15 +132,16 @@ def get_processed_items_from_db(source_url):
             'name': row[0],
             'contact': row[1],
             'email (yellowpages)': row[2],
-            'state': row[3],
-            'source_url': row[4],
-            'owner': row[7],
-            'interests': row[8],
-            'category': row[9],
-            'page': row[10],
+            'website': row[3],
+            'state': row[4],
+            'source_url': row[5],
+            'owner': row[8],
+            'interests': row[9],
+            'category': row[10],
+            'page': row[11],
         }
-        urls = row[5].split(';')
-        emails = row[6].split(';')
+        urls = row[6].split(';')
+        emails = row[7].split(';')
         for i, url in enumerate(urls):
             processed_item[f'url - {i + 1}'] = url
         for i, email in enumerate(emails):
@@ -157,12 +159,13 @@ def save_processed_items_to_db(source_url, processed_items: list[dict]):
         urls = ';'.join([item[url_key] for url_key in [key for key in item.keys() if key.startswith('url -')]])
         emails = ';'.join([item[email_key] for email_key in [key for key in item.keys() if key.startswith('email -')]])
         cursor.execute('''
-            INSERT INTO yellowpages (name, contact, primary_email, state, source_url, urls, emails, owner, interests, category, page)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO yellowpages (name, contact, primary_email, website, state, source_url, urls, emails, owner, interests, category, page)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
                 item['name'],
                 item['contact'],
                 item['email (yellowpages)'],
+                item['website'],
                 item['state'],
                 source_url,
                 urls,
@@ -265,14 +268,16 @@ def process_item(item, source_url, page, category):
     state = address_view['state']
     primary_email = item['primaryEmail']
     contact_number = item['callContactNumber']['value']
+    website = item['website'] or ''
     external_links = item['externalLinks'] or []
     processed_item = {
         'name': name,
         'state': state,
-        'page': page,
         'category': category,
-        'email (yellowpages)': primary_email,
         'contact': contact_number,
+        'email (yellowpages)': primary_email,
+        'website': website,
+        'page': page,
         'source_url': source_url,
         'owner': '',
         'interests': '',
@@ -282,6 +287,13 @@ def process_item(item, source_url, page, category):
     bad_domains = set()
     urls = set()
     logging.info(f"Scraping emails for {name} - {contact_number} in {state}")
+
+    emails = scrape_emails_from_url(website)
+    for email in emails or []:
+        if email not in scraped_emails:
+            processed_item[f"email - {len(scraped_emails) + 1}"] = email
+            scraped_emails.add(email)
+
     for link in external_links:
         if not link['url']:
             continue
@@ -312,7 +324,6 @@ def process_item(item, source_url, page, category):
             if email not in scraped_emails:
                 processed_item[f"email - {len(scraped_emails) + 1}"] = email
                 scraped_emails.add(email)
-
     return processed_item
 
 
@@ -361,6 +372,7 @@ def scrape_yellowpages_au(base_url, state, category, filename, page=1):
         initial_state = extract_initial_state(response.text)
         if initial_state:
             logging.info(f"extracted state for page {current_page}")
+            print("SHOULD_LOG_STATES", SHOULD_LOG_STATES)
             if SHOULD_LOG_STATES:
                 with open(f'{LOG_DIRECTORY}/{filename}-{current_page}.json',
                       'w') as file:
